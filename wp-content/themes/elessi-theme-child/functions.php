@@ -12,3 +12,8 @@ function theme_enqueue_styles() {
 /**
  * Your code goes below
  */
+
+ function add_script_js(){
+     wp_enqueue_script('recursos',get_stylesheet_directory_uri() . '/js/recursos.js',array(),'',true);
+ }
+ add_action('wp_enqueue_scripts','add_script_js');
