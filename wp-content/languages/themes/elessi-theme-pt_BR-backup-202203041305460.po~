@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-26 07:01+0000\n"
-"PO-Revision-Date: 2022-03-04 13:05+0000\n"
+"PO-Revision-Date: 2022-03-04 13:04+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -3588,7 +3588,7 @@ msgstr ""
 #: includes/nasa-view-compare.php:126 includes/nasa-view-compare.php:126
 #: woocommerce/cart/mini-cart.php:157
 msgid "RETURN TO SHOP"
-msgstr "Voltar para a Loja"
+msgstr ""
 
 #: admin/classes/class-tgm-plugin-activation.php:375
 #: admin/classes/class-tgm-plugin-activation.php:896

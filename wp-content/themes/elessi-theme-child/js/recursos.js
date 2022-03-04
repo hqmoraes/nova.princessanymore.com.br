@@ -20,7 +20,12 @@
 try {
     document.querySelector('#main-content .um-field-block div').innerText = 'Enviamos uma mensagem para o seu e-mail. Por favor siga as etapas descritas no e-mail para trocar a sua senha.';
     document.querySelector('#main-content .um-field-block div').classList.add('formatarMensagem');
-    
+}
+catch (e) {
+   // declarações para manipular quaisquer exceções
+   console.log(e); // passa o objeto de exceção para o manipulador de erro
+}
+try {    
     var formLogin = document.getElementById('formLogin');
     if(formLogin){
         document.getElementById('btnFazerLogin').onclick = function () {tratarLogin("fazerLogin")};
