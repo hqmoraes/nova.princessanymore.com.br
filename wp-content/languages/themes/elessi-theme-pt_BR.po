@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-26 07:01+0000\n"
-"PO-Revision-Date: 2022-03-04 11:56+0000\n"
+"PO-Revision-Date: 2022-03-04 12:40+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -2766,7 +2766,7 @@ msgstr ""
 
 #: woocommerce/cart/mini-cart.php:157
 msgid "No products in the cart."
-msgstr "Nenhum produto no carrinho"
+msgstr "Sem produtos no carrinho"
 
 #: includes/nasa-sidebar-wishlist_content.php:89
 #: includes/nasa-sidebar-wishlist_content.php:208

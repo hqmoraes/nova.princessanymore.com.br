@@ -2767,7 +2767,7 @@ msgstr ""
 
 #: woocommerce/cart/mini-cart.php:157
 msgid "No products in the cart."
-msgstr ""
+msgstr "Sem produtos no carrinho"
 
 #: includes/nasa-sidebar-wishlist_content.php:89
 #: includes/nasa-sidebar-wishlist_content.php:208
