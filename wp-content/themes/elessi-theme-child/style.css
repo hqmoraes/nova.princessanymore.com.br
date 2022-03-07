@@ -10,3 +10,174 @@ Version: 1.0
 
 
 /*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+
+/*
+Theme Name: Elessi Theme Child
+Theme URI: https://elessi.nasatheme.com
+Description: This is a child theme for Elessi Theme
+Author: NasaTheme team
+Author URI: https://nasatheme.com
+Template: elessi-theme
+Version: 1.0
+*/
+
+
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+home{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#mobile-navigation{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#mobile-navigation > li.menu-item.root-item.menu-item-heading, #nasa-menu-sidebar-content > a{
+	display:none;
+}
+
+#mobile-navigation > li:nth-child(2),#mobile-navigation > li:nth-child(3){
+	flex-grow:1;
+	width: 100%;
+}
+
+#mobile-navigation > li:nth-child(4),#mobile-navigation > li:nth-child(5){
+	flex-grow: 1;
+	text-align: right;
+}
+
+#mobile-navigation > li:nth-child(4){
+	flex-grow: 1;
+	text-align: right;
+}
+
+#mobile-navigation > li:nth-child(5){
+	text-align: left;
+}
+
+
+
+.menu-item img{
+	width: 20px;
+}
+
+
+#top-bar{
+	display: none;
+}
+#homeBanner{
+	height: 100vh;
+}
+@media only screen and (max-width:768px){
+	#homeBanner{
+		background-image: url('http://nova.princessanymore.com.br/wp-content/uploads/2022/03/Beige-Torn-Young-Girl-Fashion-Store-Etsy-Shop-Cover-500-px-×-300-px-300-px-×-600-px-6.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center top;
+	}
+	.atendimento{
+	display: flex;
+	}
+	
+		.atendimento img, .siga img {
+			width: 50px;
+			padding-right: 10px;
+	}
+	
+	.certificados img{
+			width: auto;
+			height: 50px;
+			padding-right: 10px;
+	}
+	h2{
+		color: black !important;
+		font-size: 2rem;
+		text-transform: uppercase;
+	}
+	p{
+		padding: 20px
+	}
+	
+	li ul{
+		display: none;
+	}
+	.formatarMensagem{
+		padding: 30px;
+	}
+	
+	body .mobile-menu .logo .header_logo, body .fixed-already .mobile-menu .logo .header_logo, body .nasa-login-register-warper #nasa-login-register-form .nasa-form-logo-log .header_logo, body .nasa-header-mobile-layout .logo .header_logo{
+		max-height: 50px !important;
+		height: 40px !important;
+	}
+	
+    #formLogin{
+        display: flex;
+        flex-direction: column;
+    }
+    #formLogin :nth-child(7){
+        order: 3;
+    }
+    #formLogin :nth-child(8){
+        background-color: #8c8c8b;
+        display: flex;
+        align-items: center;
+        order: 2;
+        justify-content: center;
+    }
+    #formLogin :nth-child(8) a{
+        color: black !important;
+        padding: 10px 0 !important;
+        font-size: 80%;
+    }
+    #formLogin :nth-child(8) a .uppercase{
+        text-transform: uppercase !important;
+    }
+
+    #formLogin :nth-child(8) a .lowercase{
+        text-transform: lowercase !important;
+    }
+
+
+    .um-col-alt-b{
+        padding: 0 !important;
+    }
+
+}
+
+	.reinicio{
+		display: none;
+	}
+
+.textoBanner{
+	padding: 20px
+}
+footer{
+	display: none;
+}
+
+.nasa-static-group-btn{
+	display: none;
+}
+
+
+
+
+#um-submit-btn{
+    background-color: black !important;
+}
+
+.btnLogin{
+    background-color: rgb(77, 6, 143) !important;
+}
+
+#um-submit-btn,  #btn1, #btn2{
+    width: 100% !important;
+    border-radius: 0 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+

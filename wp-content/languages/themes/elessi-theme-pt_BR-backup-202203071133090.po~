@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-26 07:01+0000\n"
-"PO-Revision-Date: 2022-03-07 11:43+0000\n"
+"PO-Revision-Date: 2022-03-04 13:05+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -4069,8 +4069,6 @@ msgstr ""
 #: options/nasa-options.php:605
 msgid "Sorry. No results match your search."
 msgstr ""
-"Ops! Sorry… sua busca para $$search não gerou resultados.\n"
-"Nossas categorias podem ter o que você procura :)\n"
 
 #: woocommerce/loop/orderby.php:16
 msgid "Sort by"
