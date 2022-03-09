@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-26 07:01+0000\n"
-"PO-Revision-Date: 2022-03-07 11:43+0000\n"
+"PO-Revision-Date: 2022-03-08 15:24+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -297,7 +297,7 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:139
 msgid "A password will be sent to your email address."
-msgstr ""
+msgstr "A sua senha será enviada para o e-mail informado."
 
 #. Description of the theme
 msgid ""
@@ -413,7 +413,7 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:158
 msgid "Already got an account? "
-msgstr ""
+msgstr "Já tem uma conta?"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:323
 msgid "Always show all pages"
@@ -816,7 +816,7 @@ msgstr ""
 #: cores/nasa-theme-footers.php:590 includes/nasa-mobile-bottom-bar.php:31
 #: includes/nasa-mobile-bottom-bar.php:33
 msgid "Categories"
-msgstr ""
+msgstr "Categorias"
 
 #: admin/settings/nasa_08_blog_heading.php:127
 #: admin/settings/nasa_08_blog_heading.php:177
@@ -1114,7 +1114,7 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:87
 msgid "Create an account"
-msgstr ""
+msgstr "Criar uma nova conta"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:374
 #: admin/settings/nasa_07_1_product_global_heading.php:375
@@ -1394,7 +1394,7 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:119
 msgid "Email address"
-msgstr ""
+msgstr "E-mail"
 
 #: cores/nasa-woo-actions.php:1134
 msgid "Email incorrect format."
@@ -1807,11 +1807,11 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:40
 msgid "Great to have you back!"
-msgstr ""
+msgstr "Yess! Já tenho cadastro"
 
 #: includes/nasa-login-register-form.php:97
 msgid "Great to see you here!"
-msgstr ""
+msgstr "CRIAR UMA NOVA CONTA"
 
 #: admin/settings/nasa_05_type_heading.php:189
 msgid "Greek"
@@ -1996,7 +1996,7 @@ msgstr ""
 
 #: searchform.php:25 includes/nasa-mobile-product-searchform.php:18
 msgid "I'm shopping for ..."
-msgstr ""
+msgstr "Digite aqui o produto ou a categoria"
 
 #: admin/settings/nasa_07_1_product_global_heading.php:119
 msgid "Icon Add To Cart in Grid"
@@ -2417,11 +2417,11 @@ msgstr ""
 
 #: woocommerce/global/form-login.php:43
 msgid "Lost your password?"
-msgstr ""
+msgstr "ESQUECI MINHA SENHA (again!)"
 
 #: includes/nasa-login-register-form.php:67
 msgid "Lost?"
-msgstr ""
+msgstr "ESQUECI MINHA SENHA (again!)"
 
 #: admin/settings/nasa_08_blog_heading.php:170
 msgid "Main Image"
@@ -2801,7 +2801,7 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:85
 msgid "Not a member? "
-msgstr ""
+msgstr "CRIAR UMA NOVA CONTA"
 
 #: single-portfolio.php:26
 msgid "Not found!"
@@ -3040,11 +3040,11 @@ msgstr ""
 #: includes/nasa-login-register-form.php:129
 #: woocommerce/global/form-login.php:29
 msgid "Password"
-msgstr ""
+msgstr "Senha"
 
 #: cores/nasa-shop-ajax.php:214
 msgid "Password is required."
-msgstr ""
+msgstr "A senha não pode ficar em branco"
 
 #: woocommerce/checkout/thankyou.php:24
 msgid "Pay"
@@ -3679,7 +3679,7 @@ msgstr ""
 #: includes/nasa-mobile-bottom-bar.php:41
 #: includes/nasa-mobile-product-searchform.php:29
 msgid "Search"
-msgstr ""
+msgstr "Pesquisar"
 
 #: includes/nasa-mobile-product-searchform.php:38
 msgid "search"
@@ -3771,7 +3771,7 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:150
 msgid "SETUP YOUR ACCOUNT"
-msgstr ""
+msgstr "ENVIAR"
 
 #: admin/settings/nasa_08_blog_heading.php:198
 msgid "Share icons"
@@ -3806,7 +3806,7 @@ msgstr ""
 #: includes/nasa-mobile-bottom-bar.php:16
 #: includes/nasa-mobile-bottom-bar.php:18
 msgid "Shop"
-msgstr ""
+msgstr "Loja"
 
 #: woocommerce/loop/orderby.php:17
 msgid "Shop order"
@@ -3909,11 +3909,11 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:160
 msgid "Sign in here"
-msgstr ""
+msgstr "Acesse aqui."
 
 #: includes/nasa-login-register-form.php:77
 msgid "SIGN IN TO YOUR ACCOUNT"
-msgstr ""
+msgstr "ENVIAR"
 
 #: admin/settings/nasa_07_2_product_page_heading.php:179
 msgid "Simple"
@@ -4705,7 +4705,7 @@ msgstr ""
 #: includes/nasa-login-register-form.php:49
 #: woocommerce/global/form-login.php:25
 msgid "Username or email"
-msgstr ""
+msgstr "E-mail"
 
 #: admin/settings/nasa_04_style_color_heading.php:82
 msgid "Variants Badge Color"
@@ -4831,7 +4831,7 @@ msgstr ""
 #: cores/nasa-woo-functions.php:970 includes/nasa-mobile-bottom-bar.php:53
 #: includes/nasa-mobile-bottom-bar.php:55
 msgid "Wishlist"
-msgstr ""
+msgstr "Favoritos"
 
 #: admin/settings/nasa_07_4_product_compare_heading.php:59
 #: admin/settings/nasa_07_4_product_compare_heading.php:60

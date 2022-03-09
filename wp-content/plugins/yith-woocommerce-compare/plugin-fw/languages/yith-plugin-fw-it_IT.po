@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH Framework\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2022-02-14 12:14:32+00:00\n"
+"POT-Creation-Date: 2022-03-02 14:53:34+00:00\n"
 "PO-Revision-Date: 2021-12-13 12:05:30+0000\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -738,9 +738,10 @@ msgid "Thank you for purchasing %s!"
 msgstr "Grazie per aver acquistato %s!"
 
 #: includes/class-yit-plugin-panel.php:806
+#, fuzzy
 msgctxt "Help tab default description"
 msgid ""
-"We want to help you to enjoy a wonderful experience with all our products."
+"We want to help you enjoy a wonderful experience with all of our products."
 msgstr ""
 "Vogliamo aiutarti ad avere un'esperienza fantastica con tutti i nostri "
 "prodotti."
@@ -878,16 +879,6 @@ msgctxt "Help tab Watch Videotutorials link"
 msgid "Videos are also available in:"
 msgstr "I video sono disponibili anche in:"
 
-#: templates/panel/help-tab.php:137
-msgctxt "Help tab Watch Videotutorials link"
-msgid "Watch our videotutorials"
-msgstr "Guarda i nostri video tutorial"
-
-#: templates/panel/help-tab.php:140
-msgctxt "Help tab Watch Videotutorials link"
-msgid "We show you some use cases"
-msgstr "Ti mostriamo alcuni casi d'uso"
-
 #: templates/panel/help-tab.php:124
 msgctxt "Help tab Read Documentation link"
 msgid "Read the documentation"
@@ -895,8 +886,20 @@ msgstr "Consulta la documentazione"
 
 #: templates/panel/help-tab.php:127
 msgctxt "Help tab Read Documentation link"
-msgid "to learn from basics how it works"
-msgstr "per imparare dalle basi come funziona"
+msgid "to learn how the plugin works from the basics."
+msgstr ""
+
+#: templates/panel/help-tab.php:137
+#, fuzzy
+msgctxt "Help tab Watch video tutorials link"
+msgid "Watch our video tutorials"
+msgstr "Guarda i nostri video tutorial"
+
+#: templates/panel/help-tab.php:140
+#, fuzzy
+msgctxt "Help tab Watch video tutorials link"
+msgid "to see some helpful use cases."
+msgstr "Ti mostriamo alcuni casi d'uso"
 
 #: templates/panel/help-tab.php:150
 msgctxt "Help tab view FAQs link"
@@ -904,8 +907,9 @@ msgid "Check the FAQs"
 msgstr "Controlla le FAQ"
 
 #: templates/panel/help-tab.php:153
+#, fuzzy
 msgctxt "Help tab view FAQs link"
-msgid "to find answers to your doubts"
+msgid "to find answers to your doubts."
 msgstr "per trovare le risposte ai tuoi dubbi"
 
 #: templates/panel/help-tab.php:169
@@ -924,10 +928,12 @@ msgid "Need help?"
 msgstr "Ti serve aiuto?"
 
 #: templates/panel/help-tab.php:195
+#, fuzzy
 msgctxt "Help tab submit ticket description"
 msgid ""
-"If you are experiencing some technical issue ask help to our developers. "
-"Submit a ticket in our support desk and we will help you as soon as possible."
+"If you are experiencing any technical issues, ask for help from our "
+"developers. Submit a ticket through our support desk and we will help you as "
+"soon as possible."
 msgstr ""
 "Se stai riscontrando problemi tecnici chiedi aiuto ai nostri sviluppatori. "
 "Invia un ticket dalla nostra piattaforma di supporto e ti daremo assistenza "
@@ -1048,3 +1054,7 @@ msgstr "Versione premium"
 msgctxt "Action links"
 msgid "Settings"
 msgstr "Impostazioni"
+
+#~ msgctxt "Help tab Read Documentation link"
+#~ msgid "to learn from basics how it works"
+#~ msgstr "per imparare dalle basi come funziona"

@@ -803,7 +803,7 @@ if ( ! class_exists( 'YIT_Plugin_Panel' ) ) {
 				array(
 					// translators: 1. Plugin name.
 					'title'              => sprintf( _x( 'Thank you for purchasing %s!', 'Help tab default title', 'yith-plugin-fw' ), $plugin_title ),
-					'description'        => _x( 'We want to help you to enjoy a wonderful experience with all our products.', 'Help tab default description', 'yith-plugin-fw' ),
+					'description'        => _x( 'We want to help you enjoy a wonderful experience with all of our products.', 'Help tab default description', 'yith-plugin-fw' ),
 					'main_video'         => false,
 					'playlists'          => array(),
 					'hc_url'             => 'https://support.yithemes.com/hc/',

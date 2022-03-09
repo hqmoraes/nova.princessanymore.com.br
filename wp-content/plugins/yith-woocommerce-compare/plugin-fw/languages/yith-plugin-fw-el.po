@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH Framework\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2022-02-14 12:14:32+00:00\n"
+"POT-Creation-Date: 2022-03-02 14:53:34+00:00\n"
 "PO-Revision-Date: 2021-02-11 18:07:46+0000\n"
 "Language: el_GR\n"
 "MIME-Version: 1.0\n"
@@ -732,7 +732,7 @@ msgstr ""
 #: includes/class-yit-plugin-panel.php:806
 msgctxt "Help tab default description"
 msgid ""
-"We want to help you to enjoy a wonderful experience with all our products."
+"We want to help you enjoy a wonderful experience with all of our products."
 msgstr ""
 
 #: includes/class-yit-plugin-panel.php:853
@@ -867,16 +867,6 @@ msgctxt "Help tab Watch Videotutorials link"
 msgid "Videos are also available in:"
 msgstr ""
 
-#: templates/panel/help-tab.php:137
-msgctxt "Help tab Watch Videotutorials link"
-msgid "Watch our videotutorials"
-msgstr ""
-
-#: templates/panel/help-tab.php:140
-msgctxt "Help tab Watch Videotutorials link"
-msgid "We show you some use cases"
-msgstr ""
-
 #: templates/panel/help-tab.php:124
 msgctxt "Help tab Read Documentation link"
 msgid "Read the documentation"
@@ -884,7 +874,17 @@ msgstr ""
 
 #: templates/panel/help-tab.php:127
 msgctxt "Help tab Read Documentation link"
-msgid "to learn from basics how it works"
+msgid "to learn how the plugin works from the basics."
+msgstr ""
+
+#: templates/panel/help-tab.php:137
+msgctxt "Help tab Watch video tutorials link"
+msgid "Watch our video tutorials"
+msgstr ""
+
+#: templates/panel/help-tab.php:140
+msgctxt "Help tab Watch video tutorials link"
+msgid "to see some helpful use cases."
 msgstr ""
 
 #: templates/panel/help-tab.php:150
@@ -894,7 +894,7 @@ msgstr ""
 
 #: templates/panel/help-tab.php:153
 msgctxt "Help tab view FAQs link"
-msgid "to find answers to your doubts"
+msgid "to find answers to your doubts."
 msgstr ""
 
 #: templates/panel/help-tab.php:169
@@ -915,8 +915,9 @@ msgstr ""
 #: templates/panel/help-tab.php:195
 msgctxt "Help tab submit ticket description"
 msgid ""
-"If you are experiencing some technical issue ask help to our developers. "
-"Submit a ticket in our support desk and we will help you as soon as possible."
+"If you are experiencing any technical issues, ask for help from our "
+"developers. Submit a ticket through our support desk and we will help you as "
+"soon as possible."
 msgstr ""
 
 #: templates/panel/help-tab.php:203

@@ -27,7 +27,7 @@ Version: 1.0
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 home{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif !important;
 }
 
 #mobile-navigation{
@@ -71,13 +71,62 @@ home{
 #homeBanner{
 	height: 100vh;
 }
-@media only screen and (max-width:768px){
-	#homeBanner{
-		background-image: url('http://nova.princessanymore.com.br/wp-content/uploads/2022/03/Beige-Torn-Young-Girl-Fashion-Store-Etsy-Shop-Cover-500-px-×-300-px-300-px-×-600-px-6.png');
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center top;
+
+
+.textoBanner{
+	padding: 20px
+}
+
+#um-submit-btn{
+    background-color: black !important;
+}
+
+.btnLogin{
+    background-color: rgb(77, 6, 143) !important;
+}
+
+#um-submit-btn,  #btn1, #btn2{
+    width: 100% !important;
+    border-radius: 0 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+@media screen and (min-width: 280px){
+	.logoFooter{
+	max-height: 40px;
+	width: auto;
+}
+
+.formasPagamento{
+	margin-top: 0;
+}
+
+footer #menu-main-menu-1{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+#menu-item-3689, #menu-item-3693{
+	display: none;
+}
+
+	#menu-item-3828{
+		padding-right: 10px;
 	}
+	#menu-item-3829{
+		padding-left: 10px;
+	}
+	.tituloFooter{
+		font-size: 1.5rem;
+			text-align: center;
+	}
+}
+@media only screen and (max-width:768px){
+
 	.atendimento{
 	display: flex;
 	}
@@ -145,39 +194,30 @@ home{
         padding: 0 !important;
     }
 
+
 }
 
-	.reinicio{
-		display: none;
+
+@media only screen and (min-width: 768px){
+	.logoFooter{
+	max-height: 40px;
+	width: auto;
+}
+
+	footer #menu-main-menu-1{
+	list-style-type: none;
+	display: flex;
+}
+
+#menu-item-3689, #menu-item-3693{
+	display: none;
+}
+
+		.tituloFooter{
+		font-size: 1.5rem
 	}
-
-.textoBanner{
-	padding: 20px
-}
-footer{
-	display: none;
 }
 
-.nasa-static-group-btn{
-	display: none;
+div[data-tag=div-77]{
+	line-height: 1.5em;
 }
-
-
-
-
-#um-submit-btn{
-    background-color: black !important;
-}
-
-.btnLogin{
-    background-color: rgb(77, 6, 143) !important;
-}
-
-#um-submit-btn,  #btn1, #btn2{
-    width: 100% !important;
-    border-radius: 0 !important;
-    text-transform: uppercase !important;
-    margin-bottom: 10px;
-    box-shadow: 1px 1px 5px black;
-}
-
