@@ -24,6 +24,15 @@ function criaIdForms(){
         } catch (error) {
             
         }
+        try {
+            document.querySelectorAll('#form-4 label')[0].innerText = 'Nome';
+            document.querySelectorAll('#form-4 label')[1].innerText = 'Sobrenome';
+            document.querySelector('#form-4 .woocommerce-privacy-policy-text').innerHTML = '<p>Os dados pessoais armazenados pelo nosso site nos ajudam a compreender melhor os interesses de nossos clientes e estão em total segurança conforme descritos na nossa <a id="registroPolicy" href="/privacy-policy">política de privacidade</a></p>'
+        } catch (error) {
+            
+        }
+
+
     }, 1000);
     } catch (error) {
         
@@ -75,12 +84,24 @@ function createTags(){
 
 createTags();
 
-
-
-
-try {
-    document.querySelector(`[data-tag=a-95`).style.display = 'none';
-    document.querySelector(`[data-tag=a-96`).style.display = 'none';
-} catch (error) {
-    
+function ocultar(tags){
+    tags.forEach(oct =>{
+        try {
+            document.querySelector(`[data-tag=` + oct + `]`).style.display = 'none';            
+        } catch (error) {
+            
+        }
+    })
 }
+
+function formId(tags){
+    tags.forEach(oct =>{
+        try {
+            document.querySelector(`[data-tag=` + tags`]`).setAttribute('onclick','criaIdForms()');
+        } catch (error) {
+            
+        }
+    })
+}
+    ocultar(['a-95','a-96','div-9','div-80']);
+    formId(['a-1']);
