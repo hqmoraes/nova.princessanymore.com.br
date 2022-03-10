@@ -20,6 +20,7 @@ function criaIdForms(){
         try {
             document.querySelectorAll('#form-3 label')[0].innerText = 'Nome';
             document.querySelectorAll('#form-3 label')[1].innerText = 'Sobrenome';
+            document.querySelector('#form-3 .woocommerce-privacy-policy-text').innerHTML = '<p>Os dados pessoais armazenados pelo nosso site nos ajudam a compreender melhor os interesses de nossos clientes e estão em total segurança conforme descritos na nossa <a id="registroPolicy" href="/privacy-policy">política de privacidade</a></p>'
         } catch (error) {
             
         }
@@ -52,14 +53,6 @@ try {
     console.log(error);
 }
 
-try {
-    document.querySelector('.woocommerce-privacy-policy-text')
-} catch (error) {
-    
-}
-
-
-
 const tagsHTML = ['address','article','aside','footer','header','h1','h2','h3','h4','h5','h6','main','nav','section','blockquote','dd','div',
 'dl','dt','figcaption','figure','hr','li','ol','menu','p','pre','ul','a','abbr','b','bdi','bdo','br','cite','code','data',
 'dfn','em','i','kbd','mark','q','rp','rt','ruby','s','samp','small','span','strong','sub','sup','time','u','var','wbr','area',
@@ -91,7 +84,3 @@ try {
 } catch (error) {
     
 }
-
-    jQuery(`[data-tag=div-68]`).bind('DOMSubtreeModified', function () {
-        createTags();
-    });

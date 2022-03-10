@@ -30,6 +30,15 @@ home{
 	font-family: 'Montserrat', sans-serif !important;
 }
 
+#registroPolicy{
+	color: black;
+	font-weight: 600;
+	text-decoration: none;
+}
+#registroPolicy :focus{
+	text-decoration: none;
+}
+
 #mobile-navigation{
 	display: flex;
 	flex-wrap: wrap;
@@ -68,6 +77,8 @@ home{
 #top-bar{
 	display: none;
 }
+
+
 #homeBanner{
 	height: 100vh;
 }
@@ -199,6 +210,11 @@ footer #menu-main-menu-1{
 
 
 @media only screen and (min-width: 768px){
+	#top-bar{
+		display: initial;
+	}
+	
+
 	.logoFooter{
 	max-height: 40px;
 	width: auto;
@@ -220,4 +236,8 @@ footer #menu-main-menu-1{
 
 div[data-tag=div-77]{
 	line-height: 1.5em;
+}
+
+li[data-tag="li-2"]{
+	display: block !important;
 }
