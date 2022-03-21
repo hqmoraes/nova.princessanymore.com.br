@@ -268,7 +268,7 @@ li[data-tag="li-2"]{
 	}
 	
 	.linha1 img{
-		width: 30% !important;
+		width: 25% !important;
 	}
 	.linha2{
 		width: 100% !important;
@@ -283,7 +283,7 @@ li[data-tag="li-2"]{
 		width: 25% !important;
 	}
 	.linha1 img{
-		width: 50% !important;
+		width: 30% !important;
 	}
 	.linha1:nth-child(2){
 		width: 75% !important;
