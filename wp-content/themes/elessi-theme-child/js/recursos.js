@@ -104,7 +104,7 @@ function ocultar(tags){
 try {
     switch (true){
         case document.body.classList.contains('home'):
-            ocultar(['a-95','a-96','div-9','div-87']);
+            ocultar(['a-95','a-96','div-9');
             break;
         case document.body.classList.contains('quemSomos'):
             ocultar(['a-95','a-96','div-9','div-157']);

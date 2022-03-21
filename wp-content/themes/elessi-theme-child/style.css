@@ -106,6 +106,7 @@ body{
 
 
 @media screen and (min-width: 280px){
+
 	.logoFooter{
 	max-height: 40px;
 	width: auto;
@@ -219,6 +220,8 @@ html, body{
 }
 
 
+
+
 	#top-bar{
 		display: initial;
 	}
@@ -259,3 +262,36 @@ li[data-tag="li-2"]{
 	display: none;
 }
 
+@media screen and (min-width: 280px){
+	.linha1{
+		width: 100% !important;
+	}
+	
+	.linha1 img{
+		width: 30% !important;
+	}
+	.linha2{
+		width: 100% !important;
+	}
+	.linha3{
+		width: 100% !important;
+	}
+	}
+	
+	@media screen and (min-width: 769px){
+	.linha1:nth-child(1){
+		width: 25% !important;
+	}
+	.linha1 img{
+		width: 50% !important;
+	}
+	.linha1:nth-child(2){
+		width: 75% !important;
+	}
+	.linha2{
+		width: 25% !important;
+	}
+	.linha3{
+		width: 100% !important;
+	}
+	}
