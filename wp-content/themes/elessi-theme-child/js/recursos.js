@@ -8,9 +8,9 @@ links.forEach(lk =>{
     cnt++;
 })
 
-function criaIdForms(){
+
     try {
-        setTimeout(fm =>{
+        setInterval(fm =>{
         var formsId = document.querySelectorAll('form');
         var cnt = 1;
         formsId.forEach(fr =>{
@@ -18,26 +18,23 @@ function criaIdForms(){
             cnt++;
         })    
         try {
-            document.querySelectorAll('#form-3 label')[0].innerText = 'Nome';
-            document.querySelectorAll('#form-3 label')[1].innerText = 'Sobrenome';
-            document.querySelector('#form-3 .woocommerce-privacy-policy-text').innerHTML = '<p>Os dados pessoais armazenados pelo nosso site nos ajudam a compreender melhor os interesses de nossos clientes e estão em total segurança conforme descritos na nossa <a id="registroPolicy" href="/privacy-policy">política de privacidade</a></p>'
+				document.querySelector('#form-3 a.lost_password').href = 'https://nova.princessanymore.com.br/password-reset'
         } catch (error) {
             
         }
         try {
-            document.querySelectorAll('#form-4 label')[0].innerText = 'Nome';
-            document.querySelectorAll('#form-4 label')[1].innerText = 'Sobrenome';
-            document.querySelector('#form-4 .woocommerce-privacy-policy-text').innerHTML = '<p>Os dados pessoais armazenados pelo nosso site nos ajudam a compreender melhor os interesses de nossos clientes e estão em total segurança conforme descritos na nossa <a id="registroPolicy" href="/privacy-policy">política de privacidade</a></p>'
+            document.querySelector(`[for=reg_sr_firstname]`).innerText = 'Nome';
+            document.querySelector(`[for=reg_sr_lastname]`).innerText = 'Sobrenome';
+            document.querySelector('.woocommerce-privacy-policy-text p').innerHTML = '<p>Os dados pessoais armazenados pelo nosso site nos ajudam a compreender melhor os interesses de nossos clientes e estão em total segurança conforme descritos na nossa <a id="registroPolicy" href="/privacy-policy">política de privacidade</a></p>'
+			document.querySelector('.wc-social-login.form-row-wide p').innerText = 'Utilize a sua conta social para fazer login.'
         } catch (error) {
             
         }
-
-
     }, 1000);
     } catch (error) {
         
     }
-}
+
 
 try {
     ct = 1;
@@ -56,11 +53,13 @@ try {
     
 }
 
+
 try {
     document.getElementById('link-3').setAttribute('onclick','criaIdForms()');
 } catch (error) {
     console.log(error);
 }
+
 
 const tagsHTML = ['address','article','aside','footer','header','h1','h2','h3','h4','h5','h6','main','nav','section','blockquote','dd','div',
 'dl','dt','figcaption','figure','hr','li','ol','menu','p','pre','ul','a','abbr','b','bdi','bdo','br','cite','code','data',
@@ -94,14 +93,70 @@ function ocultar(tags){
     })
 }
 
-function formId(tags){
-    tags.forEach(oct =>{
+
+
         try {
-            document.querySelector(`[data-tag=` + tags`]`).setAttribute('onclick','criaIdForms()');
+            document.querySelector(`[data-tag=a-1]`).setAttribute('onclick','criaIdForms()');
         } catch (error) {
-            
+
         }
-    })
+
+try {
+    switch (true){
+        case document.body.classList.contains('home'):
+            ocultar(['a-95','a-96','div-9','div-87']);
+            break;
+        case document.body.classList.contains('quemSomos'):
+            ocultar(['a-95','a-96','div-9','div-157']);
+            break;
+        case document.body.classList.contains('trocas'):
+            ocultar(['a-95','a-96','div-9','div-68']);
+            break;
+        case document.body.classList.contains('pagamentos'):
+            ocultar(['a-95','a-96','div-9','div-68']);
+            break;
+        case document.body.classList.contains('termosUso'):            
+            ocultar(['a-95','a-96','div-9','div-68']);
+            break;
+            case document.body.classList.contains('privacidade'):            
+            ocultar(['a-95','a-96','div-9','div-68']);
+            break;            
+            case document.body.classList.contains('passwordReset'):
+            ocultar(['a-95','a-96','div-9']);
+            break;            			
+    }
+} catch (error) {
+    
 }
-    ocultar(['a-95','a-96','div-9','div-80']);
-    formId(['a-1']);
+
+    try {
+        let textoForm = document.querySelector(`wrapper-mobile-search [data-tag=form-1]`).innerText;
+        let buscado = document.querySelector(`[data-tag=input-1]`).ariaValueMax;
+        let trocar = textForm.replace('$$search',buscado);
+    } catch (error) {
+        
+    }
+
+try{
+	document.querySelector(`[title=Pesquisar]`).setAttribute('onclick','tiraEfeito()');
+}
+catch(erro){
+	
+}
+
+	setInterval(e=>{
+		try{
+			let srch = document.getElementById('nasa-input-1').value;
+			let sbst = document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText;
+			document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText = sbst.replace('$$search',srch);
+		}
+		catch(erro){}
+	},500)
+
+
+function tiraEfeito(){
+	setInterval(e=>{
+		document.getElementById('nasa-input-1').setAttribute('data-suggestions','');
+		document.getElementById('nasa-input-1').setAttribute('keydown','sbstVar()');
+	},1000);
+}

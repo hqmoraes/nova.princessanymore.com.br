@@ -1,41 +1,73 @@
-.elementor-3697 .elementor-element.elementor-element-3cb38eae > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}.elementor-3697 .elementor-element.elementor-element-3cb38eae{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;}.elementor-3697 .elementor-element.elementor-element-3cb38eae > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-3697 .elementor-element.elementor-element-4da9965 img{width:100%;}.elementor-3697 .elementor-element.elementor-element-bf3bf72.elementor-column > .elementor-widget-wrap{justify-content:flex-start;}.elementor-3697 .elementor-element.elementor-element-bf3bf72 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-3697 .elementor-element.elementor-element-0c3c272{text-align:left;}.elementor-3697 .elementor-element.elementor-element-f54c3e3 > .elementor-container{max-width:800px;}.elementor-3697 .elementor-element.elementor-element-f54c3e3{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;}.elementor-3697 .elementor-element.elementor-element-f54c3e3 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-3697 .elementor-element.elementor-element-516b5ff{text-align:center;font-family:"Montserrat", Sans-serif;font-size:1.4rem;font-weight:400;}.elementor-3697 .elementor-element.elementor-element-1ae0477{text-align:center;font-family:"Montserrat", Sans-serif;font-size:1.4rem;font-weight:400;}@media(max-width:992px){.elementor-3697 .elementor-element.elementor-element-c917715 img{width:100%;}}@media(max-width:768px){.elementor-3697 .elementor-element.elementor-element-c917715 img{width:100%;}}@media(max-width:576px){.elementor-bc-flex-widget .elementor-3697 .elementor-element.elementor-element-23099ca0.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-3697 .elementor-element.elementor-element-23099ca0.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-3697 .elementor-element.elementor-element-c917715 img{width:100%;}}/* Start custom CSS for image, class: .elementor-element-0c3c272 */.elementor-3697 .elementor-element.elementor-element-0c3c272{
- width: 100%;   
-}/* End custom CSS */
-/* Start custom CSS for section, class: .elementor-element-dda18b5 */@media screen and (min-width:992px){
-.elementor-3697 .elementor-element.elementor-element-dda18b5{
-    position: absolute;
-    bottom:60.5px;
-    left: 9.5%;
-    width: 49%;
-}
-}
-
-@media screen and (min-width:1200px){
-.elementor-3697 .elementor-element.elementor-element-dda18b5{
-    position: absolute;
-    bottom:95.5px;
-    left: 14.5%;
-    width: 42%;
-}
-
-}
-
-@media screen and (min-width:1400px){
-.elementor-3697 .elementor-element.elementor-element-dda18b5{
-    position: absolute;
-    bottom:110.5px;
-    left: 17.5%;
-    width: 49%;
-}
-}/* End custom CSS */
-/* Start custom CSS for section, class: .elementor-element-3cb38eae */.elementor-3697 .elementor-element.elementor-element-3cb38eae{
-    position: relative;
-    max-width: 1500px;
-    margin:0 auto;
+.elementor-3697 .elementor-element.elementor-element-3cb38eae > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:flex-end;align-items:flex-end;}.elementor-3697 .elementor-element.elementor-element-3cb38eae{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;}.elementor-3697 .elementor-element.elementor-element-3cb38eae > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-3697 .elementor-element.elementor-element-8ebbf44{padding:0px 0px 0px 0px;}.elementor-3697 .elementor-element.elementor-element-ed886ec > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-3697 .elementor-element.elementor-element-4da9965 img{width:100%;}.elementor-3697 .elementor-element.elementor-element-5842227 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-3697 .elementor-element.elementor-element-f54c3e3{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top:0px;margin-bottom:0px;}.elementor-3697 .elementor-element.elementor-element-f54c3e3 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-3697 .elementor-element.elementor-element-516b5ff{text-align:center;font-family:"Montserrat", Sans-serif;font-size:1.4rem;font-weight:400;}.elementor-3697 .elementor-element.elementor-element-1ae0477{text-align:center;font-family:"Montserrat", Sans-serif;font-size:1.4rem;font-weight:400;}@media(max-width:992px){.elementor-3697 .elementor-element.elementor-element-84dee17{text-align:left;}.elementor-3697 .elementor-element.elementor-element-84dee17 img{width:100%;}}@media(max-width:768px){.elementor-3697 .elementor-element.elementor-element-84dee17{text-align:left;}}@media(max-width:576px){.elementor-bc-flex-widget .elementor-3697 .elementor-element.elementor-element-23099ca0.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-3697 .elementor-element.elementor-element-23099ca0.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-3697 .elementor-element.elementor-element-84dee17{text-align:left;}.elementor-3697 .elementor-element.elementor-element-84dee17 img{width:100%;}}/* Start custom CSS for html, class: .elementor-element-3cb18a2 */.elementor-3697 .elementor-element.elementor-element-3cb18a2{
+    display: none;
 }/* End custom CSS */
 /* Start custom CSS for text-editor, class: .elementor-element-516b5ff */.elementor-3697 .elementor-element.elementor-element-516b5ff{
     	font-family: 'Montserrat', sans-serif !important;
 }/* End custom CSS */
 /* Start custom CSS for text-editor, class: .elementor-element-1ae0477 */.elementor-3697 .elementor-element.elementor-element-1ae0477{
     	font-family: 'Montserrat', sans-serif !important;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-f54c3e3 */.elementor-3697 .elementor-element.elementor-element-f54c3e3{
+    max-width:1400px;
+    margin: 0 auto;
+    display: none;
+}/* End custom CSS */
+/* Start custom CSS */@media screen and (min-width: 768px){
+   body.home {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    body.home .mediumSize{
+        width: 100%;
+}
+
+
+    body.home .mediumSize img{
+        width:100%;
+}
+
+
+    body.home .mediumSize .texto{
+        position: absolute;
+        bottom:12%;
+        left: 5%;
+        width: 65%;
+}
+
+    body.home .smallSize{
+        display: none;
+}
+
+}
+
+
+@media screen and (min-width: 280px){
+   body.home {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    body.home .smallSize{
+        width: 100%;
+}
+
+
+    body.home .smallSize img{
+        width:100%;
+}
+
+
+    body.home .smallSize .texto{
+        position: absolute;
+        bottom:12%;
+        left: 5%;
+        width: 75%;
+}
+
+    body.home .smallSize{
+        display: block;
+}
+    body.home .mediumSize{
+        display: none;
+}
+
 }/* End custom CSS */

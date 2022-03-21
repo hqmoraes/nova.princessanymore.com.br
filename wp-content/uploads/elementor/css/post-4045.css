@@ -1,0 +1,88 @@
+.elementor-4045 .elementor-element.elementor-element-10a42e2 .elementor-heading-title{color:#000000;font-family:"Montserrat", Sans-serif;font-weight:600;}.elementor-4045 .elementor-element.elementor-element-42bbc0d3{color:#000000;font-family:"Montserrat", Sans-serif;font-size:1.4rem;font-weight:400;}/* Start custom CSS for html, class: .elementor-element-4f95270 */.elementor-4045 .elementor-element.elementor-element-4f95270{
+    display:none;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-4f91da26 */.elementor-4045 .elementor-element.elementor-element-4f91da26{
+    max-width: 1400px;
+    margin: 0 auto;
+}/* End custom CSS */
+/* Start custom CSS */@media screen and (min-width: 280px){
+.termosUso{
+    font-size: 14px !important;
+    padding:0 1em;
+}
+.termosUso h2{
+    font-weight: 800 !important;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1em !important;
+}
+
+.termosUso p{
+    color: #212529 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 0.9em;
+
+}
+
+.termosUso p strong{
+    font-weight: 600 !important
+}
+
+
+p[data-tag="p-7"],p[data-tag="p-11"],p[data-tag="p-13"],p[data-tag="p-19"],p[data-tag="p-20"],p[data-tag="p-27"],p[data-tag="p-31"],p[data-tag="p-36"],p[data-tag="p-41"],p[data-tag="p-7"], p[data-tag="p-50"],p[data-tag="p-54"],p[data-tag="p-58"],p[data-tag="p-62"],p[data-tag="p-67"],p[data-tag="p-69"],p[data-tag="p-74"],p[data-tag="p-80"],p[data-tag="p-82"],p[data-tag="p-85"],p[data-tag="p-88"],p[data-tag="p-90"],p[data-tag="p-95"],p[data-tag="p-100"],p[data-tag="p-105"],p[data-tag="p-109"]
+{
+    margin-bottom: 1em !important;   
+}
+
+.textos{
+    margin-bottom: 1em;
+}
+
+}
+@media screen and (min-width: 768px){
+.termosUso{
+    font-size: 18px !important;
+}
+.termosUso h2{
+    font-weight: 800 !important;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.4em !important;
+}
+
+.termosUso p{
+    color: #212529 !important;
+    
+    font-size: 1em;
+
+}
+
+.termosUso p strong{
+    font-weight: 600 !important
+}
+
+
+p[data-tag="p-7"],p[data-tag="p-11"],p[data-tag="p-13"],p[data-tag="p-19"],p[data-tag="p-20"],p[data-tag="p-27"],p[data-tag="p-31"],p[data-tag="p-36"],p[data-tag="p-41"],p[data-tag="p-7"], p[data-tag="p-50"],p[data-tag="p-54"],p[data-tag="p-58"],p[data-tag="p-62"],p[data-tag="p-67"],p[data-tag="p-69"],p[data-tag="p-74"],p[data-tag="p-80"],p[data-tag="p-82"],p[data-tag="p-85"],p[data-tag="p-88"],p[data-tag="p-90"],p[data-tag="p-95"],p[data-tag="p-100"],p[data-tag="p-105"],p[data-tag="p-109"]
+{
+    margin-bottom: 1em !important;   
+}
+
+.textos{
+    margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}/* End custom CSS */

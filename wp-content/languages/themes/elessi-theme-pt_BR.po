@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Elessi Theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-26 07:01+0000\n"
-"PO-Revision-Date: 2022-03-08 15:24+0000\n"
+"PO-Revision-Date: 2022-03-18 20:21+0000\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.5.8; wp-5.9.1\n"
+"X-Loco-Version: 2.6.1; wp-5.9.2\n"
 "X-Domain: elessi-theme"
 
 #: includes/nasa-sidebar-wishlist_content.php:163
@@ -308,6 +308,7 @@ msgstr ""
 #: cores/nasa-shop-ajax.php:224
 msgid "A user could not be found with this email address."
 msgstr ""
+"Não encontramos usuário cadastrado com esse endereço de e-mail\n"
 
 #: includes/nasa-gdpr-notice.php:19
 msgid "Accept"
@@ -1811,7 +1812,7 @@ msgstr "Yess! Já tenho cadastro"
 
 #: includes/nasa-login-register-form.php:97
 msgid "Great to see you here!"
-msgstr "CRIAR UMA NOVA CONTA"
+msgstr "Criar uma nova conta"
 
 #: admin/settings/nasa_05_type_heading.php:189
 msgid "Greek"
@@ -2389,7 +2390,7 @@ msgstr ""
 #: cores/nasa-theme-headers.php:339 cores/nasa-theme-headers.php:453
 #: cores/nasa-woo-functions.php:101 cores/nasa-woo-functions.php:101
 msgid "Login / Register"
-msgstr ""
+msgstr "Login / Cadastrar"
 
 #: cores/nasa-shop-ajax.php:260
 msgid "Login success."
@@ -2397,7 +2398,7 @@ msgstr ""
 
 #: page-my-account.php:33
 msgid "Login/Register"
-msgstr ""
+msgstr "Login / Cadastrar"
 
 #: admin/settings/nasa_01_general_heading.php:75
 msgid "Login/Register by Ajax form"
@@ -2417,11 +2418,11 @@ msgstr ""
 
 #: woocommerce/global/form-login.php:43
 msgid "Lost your password?"
-msgstr "ESQUECI MINHA SENHA (again!)"
+msgstr "Esqueci minha senha (again!)"
 
 #: includes/nasa-login-register-form.php:67
 msgid "Lost?"
-msgstr "ESQUECI MINHA SENHA (again!)"
+msgstr "Esqueci minha senha (again!)"
 
 #: admin/settings/nasa_08_blog_heading.php:170
 msgid "Main Image"
@@ -2594,7 +2595,7 @@ msgstr ""
 #: cores/nasa-woo-functions.php:126 cores/nasa-woo-functions.php:126
 #: woocommerce/checkout/thankyou.php:26
 msgid "My Account"
-msgstr ""
+msgstr "Minha conta"
 
 #: cores/nasa-theme-footers.php:388
 msgid "My Cart"
@@ -2801,7 +2802,7 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:85
 msgid "Not a member? "
-msgstr "CRIAR UMA NOVA CONTA"
+msgstr "AInda não tem cadastro? "
 
 #: single-portfolio.php:26
 msgid "Not found!"
@@ -3460,7 +3461,7 @@ msgstr ""
 
 #: cores/nasa-shop-ajax.php:331
 msgid "Register success."
-msgstr ""
+msgstr "YESS! Usuário registrado com sucesso :)"
 
 #: admin/settings/nasa_07_3_product_detail_heading.php:306
 msgid "Relate Products"
@@ -3480,7 +3481,7 @@ msgstr ""
 
 #: includes/nasa-login-register-form.php:54
 msgid "Remember"
-msgstr ""
+msgstr "Lembrar"
 
 #: woocommerce/global/form-login.php:39
 msgid "Remember me"

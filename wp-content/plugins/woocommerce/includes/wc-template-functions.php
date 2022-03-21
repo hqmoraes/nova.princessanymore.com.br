@@ -846,11 +846,11 @@ function wc_get_privacy_policy_text( $type = '' ) {
 	switch ( $type ) {
 		case 'checkout':
 			/* translators: %s privacy policy page name and link */
-			$text = get_option( 'woocommerce_checkout_privacy_policy_text', sprintf( __( 'Os dados pessoais armazenadas pelo nosso site nos ajudam a compreender melhor os interesses de nossos clientes e estão em total segurança conforme descritos na nossa %s.', 'woocommerce' ), '[privacy_policy]' ) );
+			$text = get_option( 'woocommerce_checkout_privacy_policy_text', sprintf( __( 'Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our %s.', 'woocommerce' ), '[privacy_policy]' ) );
 			break;
 		case 'registration':
 			/* translators: %s privacy policy page name and link */
-			$text = get_option( 'woocommerce_registration_privacy_policy_text', sprintf( __( 'Os dados pessoais armazenadas pelo nosso site nos ajudam a compreender melhor os interesses de nossos clientes e estão em total segurança conforme descritos na nossa %s.', 'woocommerce' ), '[privacy_policy]' ) );
+			$text = get_option( 'woocommerce_registration_privacy_policy_text', sprintf( __( 'Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our %s.', 'woocommerce' ), '[privacy_policy]' ) );
 			break;
 	}
 
@@ -977,7 +977,7 @@ if ( ! function_exists( 'woocommerce_content' ) ) {
 			<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 				<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
-				Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our 
+
 			<?php endif; ?>
 
 			<?php do_action( 'woocommerce_archive_description' ); ?>
