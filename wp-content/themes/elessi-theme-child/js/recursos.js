@@ -162,7 +162,8 @@ function tiraEfeito(){
 }
 
 /* Montar página quem somos*/
-for (i=1;i<7;i++){
+try {
+for (i=1;i<=7;i++){
 let baseImg = '/wp-content/uploads/2022/03/'
 let ssize = window.outerWidth;
 let img1 = document.querySelector('.quemSomos .elementor-widget-wrap.elementor-element-populated .bloco' + i + ' .elementor-container .elementor-column:nth-child(1) .elementor-widget-wrap');
@@ -223,4 +224,7 @@ let img2c = document.createElement('img');
             break;                        
 }
 
+}
+} catch (error) {
+    
 }

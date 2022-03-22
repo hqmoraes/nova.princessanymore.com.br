@@ -1,15 +1,36 @@
 @media screen and (min-width:1400px){
     .bloco1 {
         height: 611px;
+        .img2{
+            width: 65% !important;
+        }
+        .ancorado:nth-child(2){
+            bottom: 15%;
+            left: 5%;
+        }
     }
     .bloco2{
         height: 336px;
+        .ancorado:nth-child(2){
+            bottom: 30%;
+            left: 7%;
+        }
     }
     .bloco3{
         height: 457px;
+        .ancorado:nth-child(2){
+            width: 26% !important;
+            bottom: 34%;
+            left: 47%;
+        }
     }
     .bloco4{
         height: 235px;
+        .ancorado:nth-child(2){
+            width: 100% !important;
+            bottom: 20%;
+            left: 7%;
+        }        
     }
     .bloco5{
         height: 726px;

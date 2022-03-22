@@ -1,5 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @media screen and (min-width: 280px) {
+  body.home {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  body.home .s576 {
+    width: 100%;
+  }
+  body.home .s576 .elementor-widget-wrap.elementor-element-populated {
+    padding: 0;
+  }
+  body.home .s576 img {
+    width: 100%;
+  }
+  body.home .s576 .texto {
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    width: 90%;
+  }
+  body.home .s576 {
+    display: block;
+  }
+  body.home .s768 {
+    display: none;
+  }
+
   .logoFooter {
     max-height: 40px;
     width: auto;
@@ -110,6 +136,26 @@
   }
 }
 @media only screen and (min-width: 768px) {
+  body.home {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  body.home .s768 {
+    width: 100%;
+  }
+  body.home .s768 img {
+    width: 100%;
+  }
+  body.home .s768 .texto {
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+    width: 65%;
+  }
+  body.home .s576 {
+    display: none;
+  }
+
   #top-bar {
     display: initial;
   }
@@ -238,17 +284,38 @@
   .bloco1 {
     height: 611px;
   }
+  .bloco1 .img2 {
+    width: 65% !important;
+  }
+  .bloco1 .ancorado:nth-child(2) {
+    bottom: 15%;
+    left: 5%;
+  }
 
   .bloco2 {
     height: 336px;
+  }
+  .bloco2 .ancorado:nth-child(2) {
+    bottom: 30%;
+    left: 7%;
   }
 
   .bloco3 {
     height: 457px;
   }
+  .bloco3 .ancorado:nth-child(2) {
+    width: 26% !important;
+    bottom: 34%;
+    left: 47%;
+  }
 
   .bloco4 {
     height: 235px;
+  }
+  .bloco4 .ancorado:nth-child(2) {
+    width: 100% !important;
+    bottom: 20%;
+    left: 7%;
   }
 
   .bloco5 {
@@ -338,13 +405,18 @@ html, body {
   box-shadow: 1px 1px 5px black;
 }
 
-.quemSomos {
+.elementor img {
   max-width: 1400px;
+}
+
+.quemSomos {
+  max-width: 1400px !important;
   margin: 0 auto;
 }
 
 .ancora {
   position: relative;
+  height: 100%;
 }
 
 .ancorado {

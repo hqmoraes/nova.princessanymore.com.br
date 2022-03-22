@@ -1,5 +1,24 @@
 @media only screen and (min-width: 768px){
 
+	body.home {
+		max-width: 1400px;
+		margin: 0 auto;
+		.s768{
+			width: 100%;
+			img{
+				width:100%;
+			}			
+			.texto{
+				position: absolute;
+				bottom:12%;
+				left: 5%;
+				width: 65%;
+		}					
+		}
+		.s576{
+			display: none;
+		}
+	}
 	#top-bar{
 		display: initial;
 	}
@@ -59,7 +78,5 @@ li[data-tag="li-2"]{
 .bloco7{
 	height: 708px;
 }
-
-
 
 	}

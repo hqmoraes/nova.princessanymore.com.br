@@ -1,5 +1,30 @@
 @media screen and (min-width: 280px){
 
+	body.home {
+		max-width: 768px;
+		margin: 0 auto;
+		.s576{
+			width: 100%;
+			.elementor-widget-wrap.elementor-element-populated{
+				padding:0;
+			}
+		}
+		.s576 img{
+			width:100%;
+		}		
+		.s576 .texto{
+			position: absolute;
+			bottom:25%;
+			left: 5%;
+			width: 90%;
+		}	
+		.s576{
+			display: block;
+		}
+		.s768{
+			display: none;
+	}}
+
 	.logoFooter{
 	max-height: 40px;
 	width: auto;
@@ -67,4 +92,4 @@ footer #menu-main-menu-1{
     .bloco7{
         height: 369px;
     }
-}
+	}
