@@ -32,10 +32,6 @@ footer #menu-main-menu-1{
 	ul.nasa-bottom-bar-icons.nasa-transition.nasa-4-columns.nasa-active{
 		display: none;
 	}
-}
-
-
-@media screen and (min-width: 280px){
 	.linha1{
 		width: 100% !important;
 	}
@@ -49,4 +45,26 @@ footer #menu-main-menu-1{
 	.linha3{
 		width: 100% !important;
 	}
-	}
+
+    .bloco1 {
+        height: 434px;
+    }
+    .bloco2{
+        height: 369px;
+    }
+    .bloco3{
+        height: 369px;
+    }
+    .bloco4{
+        height: 369px;
+    }
+    .bloco5{
+        height: 369px;
+    }
+    .bloco6{
+        height: 369px;
+    }
+    .bloco7{
+        height: 369px;
+    }
+}

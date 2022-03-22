@@ -1,13 +1,4 @@
 @media only screen and (min-width: 768px){
-	body.home{
-		max-width: 1400px;
-	}
-html, body{
-	font-size: 16px;
-}
-
-
-
 
 	#top-bar{
 		display: initial;
@@ -27,11 +18,9 @@ html, body{
 #menu-item-3689, #menu-item-3693{
 	display: none;
 }
-
 		.tituloFooter{
 		font-size: 1.5rem
 	}
-}
 
 div[data-tag=div-77]{
 	line-height: 1.5em;
@@ -49,21 +38,28 @@ li[data-tag="li-2"]{
 	display: none;
 }
 
+.bloco1{
+	height: 834px;
+}
+.bloco2{
+	height: 708px;
+}
+.bloco3{
+	height: 708px;
+}
+.bloco4{
+	height: 708px;
+}
+.bloco5{
+	height: 708px;
+}
+.bloco6{
+	height: 708px;
+}
+.bloco7{
+	height: 708px;
+}
 
-@media screen and (min-width: 769px){
-	.linha1:nth-child(1){
-		width: 25% !important;
-	}
-	.linha1 img{
-		width: 30% !important;
-	}
-	.linha1:nth-child(2){
-		width: 75% !important;
-	}
-	.linha2{
-		width: 25% !important;
-	}
-	.linha3{
-		width: 100% !important;
-	}
+
+
 	}

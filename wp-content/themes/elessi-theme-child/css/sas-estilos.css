@@ -35,8 +35,7 @@
   ul.nasa-bottom-bar-icons.nasa-transition.nasa-4-columns.nasa-active {
     display: none;
   }
-}
-@media screen and (min-width: 280px) {
+
   .linha1 {
     width: 100% !important;
   }
@@ -52,16 +51,65 @@
   .linha3 {
     width: 100% !important;
   }
+
+  .bloco1 {
+    height: 434px;
+  }
+
+  .bloco2 {
+    height: 369px;
+  }
+
+  .bloco3 {
+    height: 369px;
+  }
+
+  .bloco4 {
+    height: 369px;
+  }
+
+  .bloco5 {
+    height: 369px;
+  }
+
+  .bloco6 {
+    height: 369px;
+  }
+
+  .bloco7 {
+    height: 369px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .bloco1 {
+    height: 625px;
+  }
+
+  .bloco2 {
+    height: 531px;
+  }
+
+  .bloco3 {
+    height: 531px;
+  }
+
+  .bloco4 {
+    height: 531px;
+  }
+
+  .bloco5 {
+    height: 531px;
+  }
+
+  .bloco6 {
+    height: 531px;
+  }
+
+  .bloco7 {
+    height: 531px;
+  }
 }
 @media only screen and (min-width: 768px) {
-  body.home {
-    max-width: 1400px;
-  }
-
-  html, body {
-    font-size: 16px;
-  }
-
   #top-bar {
     display: initial;
   }
@@ -83,43 +131,228 @@
   .tituloFooter {
     font-size: 1.5rem;
   }
+
+  div[data-tag=div-77] {
+    line-height: 1.5em;
+  }
+
+  li[data-tag=li-2] {
+    display: block !important;
+  }
+
+  .topbar-mobile-text[data-tag=div-7] {
+    display: none !important;
+  }
+
+  .nasa-static-group-btn {
+    display: none;
+  }
+
+  .bloco1 {
+    height: 834px;
+  }
+
+  .bloco2 {
+    height: 708px;
+  }
+
+  .bloco3 {
+    height: 708px;
+  }
+
+  .bloco4 {
+    height: 708px;
+  }
+
+  .bloco5 {
+    height: 708px;
+  }
+
+  .bloco6 {
+    height: 708px;
+  }
+
+  .bloco7 {
+    height: 708px;
+  }
 }
-div[data-tag=div-77] {
-  line-height: 1.5em;
+@media screen and (min-width: 992px) {
+  .bloco1 {
+    height: 433px;
+  }
+
+  .bloco2 {
+    height: 238px;
+  }
+
+  .bloco3 {
+    height: 324px;
+  }
+
+  .bloco4 {
+    height: 167px;
+  }
+
+  .bloco5 {
+    height: 514px;
+  }
+
+  .bloco6 {
+    height: 290px;
+  }
+
+  .bloco7 {
+    height: 324px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bloco1 {
+    height: 524px;
+  }
+
+  .bloco2 {
+    height: 288px;
+  }
+
+  .bloco3 {
+    height: 392px;
+  }
+
+  .bloco4 {
+    height: 202px;
+  }
+
+  .bloco5 {
+    height: 622px;
+  }
+
+  .bloco6 {
+    height: 351px;
+  }
+
+  .bloco7 {
+    height: 392px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .bloco1 {
+    height: 611px;
+  }
+
+  .bloco2 {
+    height: 336px;
+  }
+
+  .bloco3 {
+    height: 457px;
+  }
+
+  .bloco4 {
+    height: 235px;
+  }
+
+  .bloco5 {
+    height: 726px;
+  }
+
+  .bloco6 {
+    height: 409px;
+  }
+
+  .bloco7 {
+    height: 457px;
+  }
+}
+html, body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
-li[data-tag=li-2] {
-  display: block !important;
+#registroPolicy {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-.topbar-mobile-text[data-tag=div-7] {
-  display: none !important;
+#registroPolicy :focus {
+  text-decoration: none;
 }
 
-.nasa-static-group-btn {
+#mobile-navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mobile-navigation > li.menu-item.root-item.menu-item-heading, #nasa-menu-sidebar-content > a {
   display: none;
 }
 
-@media screen and (min-width: 769px) {
-  .linha1:nth-child(1) {
-    width: 25% !important;
-  }
+#mobile-navigation > li:nth-child(2), #mobile-navigation > li:nth-child(3) {
+  flex-grow: 1;
+  width: 100%;
+}
 
-  .linha1 img {
-    width: 30% !important;
-  }
+#mobile-navigation > li:nth-child(4), #mobile-navigation > li:nth-child(5) {
+  flex-grow: 1;
+  text-align: right;
+}
 
-  .linha1:nth-child(2) {
-    width: 75% !important;
-  }
+#mobile-navigation > li:nth-child(4) {
+  flex-grow: 1;
+  text-align: right;
+}
 
-  .linha2 {
-    width: 25% !important;
-  }
+#mobile-navigation > li:nth-child(5) {
+  text-align: left;
+}
 
-  .linha3 {
-    width: 100% !important;
-  }
+.menu-item img {
+  width: 20px;
+}
+
+#top-bar {
+  display: none;
+}
+
+#homeBanner {
+  height: 100vh;
+}
+
+.textoBanner {
+  padding: 20px;
+}
+
+#um-submit-btn {
+  background-color: black !important;
+}
+
+.btnLogin {
+  background-color: #4d068f !important;
+}
+
+#um-submit-btn, #btn1, #btn2 {
+  width: 100% !important;
+  border-radius: 0 !important;
+  text-transform: uppercase !important;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.quemSomos {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ancora {
+  position: relative;
+}
+
+.ancorado {
+  position: absolute;
+}
+
+.ancora, .ancorado {
+  width: 100% !important;
 }
 
 /*# sourceMappingURL=sas-estilos.css.map */
