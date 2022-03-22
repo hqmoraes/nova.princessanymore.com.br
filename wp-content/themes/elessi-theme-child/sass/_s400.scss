@@ -1,23 +1,31 @@
 @media screen and (min-width: 280px){
-
+	body > div.nasa-static-group-btn{
+		display: none;
+	}
 	body.home {
 		max-width: 768px;
 		margin: 0 auto;
 		.s576{
 			width: 100%;
 			.elementor-widget-wrap.elementor-element-populated{
-				padding:0;
+				padding:0 !important;
 			}
 		}
 		.s576 img{
-			width:100%;
-		}		
+			width:auto;
+			height: 100vh;
+		}	
+	
 		.s576 .texto{
 			position: absolute;
-			bottom:25%;
+			bottom:35%;
 			left: 5%;
 			width: 90%;
 		}	
+		.s576 .texto img{
+			height: 100%;
+			width: 100%;
+		}
 		.s576{
 			display: block;
 		}

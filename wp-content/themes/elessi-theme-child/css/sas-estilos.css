@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @media screen and (min-width: 280px) {
+  body > div.nasa-static-group-btn {
+    display: none;
+  }
+
   body.home {
     max-width: 768px;
     margin: 0 auto;
@@ -8,16 +12,21 @@
     width: 100%;
   }
   body.home .s576 .elementor-widget-wrap.elementor-element-populated {
-    padding: 0;
+    padding: 0 !important;
   }
   body.home .s576 img {
-    width: 100%;
+    width: auto;
+    height: 100vh;
   }
   body.home .s576 .texto {
     position: absolute;
-    bottom: 25%;
+    bottom: 35%;
     left: 5%;
     width: 90%;
+  }
+  body.home .s576 .texto img {
+    height: 100%;
+    width: 100%;
   }
   body.home .s576 {
     display: block;
@@ -145,15 +154,29 @@
   }
   body.home .s768 img {
     width: 100%;
+    height: 100%;
   }
   body.home .s768 .texto {
     position: absolute;
-    bottom: 12%;
+    bottom: 35%;
     left: 5%;
     width: 65%;
   }
+  body.home .s768 .texto img {
+    height: 80%;
+    width: auto;
+  }
+  body.home .s768 {
+    width: 100%;
+  }
+  body.home .s768 .elementor-widget-wrap.elementor-element-populated {
+    padding: 0 !important;
+  }
   body.home .s576 {
     display: none;
+  }
+  body.home .s768 {
+    display: block;
   }
 
   #top-bar {
@@ -176,10 +199,6 @@
 
   .tituloFooter {
     font-size: 1.5rem;
-  }
-
-  div[data-tag=div-77] {
-    line-height: 1.5em;
   }
 
   li[data-tag=li-2] {
@@ -220,6 +239,27 @@
 
   .bloco7 {
     height: 708px;
+  }
+
+  .rodapeV2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .rodapeV2 .elementor-container {
+    flex-wrap: wrap;
+  }
+  .rodapeV2 .elementor-container .linha1:nth-child(1) {
+    width: 30% !important;
+  }
+  .rodapeV2 .elementor-container .linha1:nth-child(2) {
+    width: 70% !important;
+  }
+  .rodapeV2 .elementor-container .linha2 {
+    width: 25% !important;
+  }
+  .rodapeV2 .elementor-container .linha3 {
+    width: 100% !important;
   }
 }
 @media screen and (min-width: 992px) {
