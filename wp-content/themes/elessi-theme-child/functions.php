@@ -6,8 +6,8 @@
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 function theme_enqueue_styles() {
-    wp_enqueue_style('elessi-style', get_template_directory_uri() . '/css/style.css');
-    wp_enqueue_style('elessi-child-style', get_stylesheet_uri());
+    wp_enqueue_style('elessi-style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('sas-estilos', get_stylesheet_directory_uri() . '/css/sas-estilos.css');
 }
 /**
  * Your code goes below

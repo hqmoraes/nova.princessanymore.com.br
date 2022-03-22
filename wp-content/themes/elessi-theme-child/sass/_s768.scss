@@ -1,0 +1,69 @@
+@media only screen and (min-width: 768px){
+	body.home{
+		max-width: 1400px;
+	}
+html, body{
+	font-size: 16px;
+}
+
+
+
+
+	#top-bar{
+		display: initial;
+	}
+	
+
+	.logoFooter{
+	max-height: 40px;
+	width: auto;
+}
+
+	footer #menu-main-menu-1{
+	list-style-type: none;
+	display: flex;
+}
+
+#menu-item-3689, #menu-item-3693{
+	display: none;
+}
+
+		.tituloFooter{
+		font-size: 1.5rem
+	}
+}
+
+div[data-tag=div-77]{
+	line-height: 1.5em;
+}
+
+li[data-tag="li-2"]{
+	display: block !important;
+}
+
+.topbar-mobile-text[data-tag=div-7]{
+	display: none !important;
+}
+
+.nasa-static-group-btn{
+	display: none;
+}
+
+
+@media screen and (min-width: 769px){
+	.linha1:nth-child(1){
+		width: 25% !important;
+	}
+	.linha1 img{
+		width: 30% !important;
+	}
+	.linha1:nth-child(2){
+		width: 75% !important;
+	}
+	.linha2{
+		width: 25% !important;
+	}
+	.linha3{
+		width: 100% !important;
+	}
+	}

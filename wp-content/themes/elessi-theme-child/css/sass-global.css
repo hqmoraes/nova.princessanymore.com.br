@@ -1,0 +1,146 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#registroPolicy {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#registroPolicy :focus {
+  text-decoration: none;
+}
+
+#mobile-navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mobile-navigation > li.menu-item.root-item.menu-item-heading, #nasa-menu-sidebar-content > a {
+  display: none;
+}
+
+#mobile-navigation > li:nth-child(2), #mobile-navigation > li:nth-child(3) {
+  flex-grow: 1;
+  width: 100%;
+}
+
+#mobile-navigation > li:nth-child(4), #mobile-navigation > li:nth-child(5) {
+  flex-grow: 1;
+  text-align: right;
+}
+
+#mobile-navigation > li:nth-child(4) {
+  flex-grow: 1;
+  text-align: right;
+}
+
+#mobile-navigation > li:nth-child(5) {
+  text-align: left;
+}
+
+.menu-item img {
+  width: 20px;
+}
+
+#top-bar {
+  display: none;
+}
+
+#homeBanner {
+  height: 100vh;
+}
+
+.textoBanner {
+  padding: 20px;
+}
+
+#um-submit-btn {
+  background-color: black !important;
+}
+
+.btnLogin {
+  background-color: #4d068f !important;
+}
+
+#um-submit-btn, #btn1, #btn2 {
+  width: 100% !important;
+  border-radius: 0 !important;
+  text-transform: uppercase !important;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px black;
+}
+
+@media only screen and (max-width: 768px) {
+  .atendimento {
+    display: flex;
+  }
+
+  .atendimento img, .siga img {
+    width: 50px;
+    padding-right: 10px;
+  }
+
+  .certificados img {
+    width: auto;
+    height: 50px;
+    padding-right: 10px;
+  }
+
+  h2 {
+    color: black !important;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  li ul {
+    display: none;
+  }
+
+  .formatarMensagem {
+    padding: 30px;
+  }
+
+  body .mobile-menu .logo .header_logo, body .fixed-already .mobile-menu .logo .header_logo, body .nasa-login-register-warper #nasa-login-register-form .nasa-form-logo-log .header_logo, body .nasa-header-mobile-layout .logo .header_logo {
+    max-height: 50px !important;
+    height: 40px !important;
+  }
+
+  #formLogin {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #formLogin :nth-child(7) {
+    order: 3;
+  }
+
+  #formLogin :nth-child(8) {
+    background-color: #8c8c8b;
+    display: flex;
+    align-items: center;
+    order: 2;
+    justify-content: center;
+  }
+
+  #formLogin :nth-child(8) a {
+    color: black !important;
+    padding: 10px 0 !important;
+    font-size: 80%;
+  }
+
+  #formLogin :nth-child(8) a .uppercase {
+    text-transform: uppercase !important;
+  }
+
+  #formLogin :nth-child(8) a .lowercase {
+    text-transform: lowercase !important;
+  }
+
+  .um-col-alt-b {
+    padding: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=sass-global.css.map */

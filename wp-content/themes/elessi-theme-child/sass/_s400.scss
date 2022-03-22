@@ -1,0 +1,52 @@
+@media screen and (min-width: 280px){
+
+	.logoFooter{
+	max-height: 40px;
+	width: auto;
+}
+
+.formasPagamento{
+	margin-top: 0;
+}
+
+footer #menu-main-menu-1{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+#menu-item-3689, #menu-item-3693{
+	display: none;
+}
+
+	#menu-item-3828{
+		padding-right: 10px;
+	}
+	#menu-item-3829{
+		padding-left: 10px;
+	}
+	.tituloFooter{
+		font-size: 1.5rem;
+			text-align: center;
+	}
+	ul.nasa-bottom-bar-icons.nasa-transition.nasa-4-columns.nasa-active{
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 280px){
+	.linha1{
+		width: 100% !important;
+	}
+	
+	.linha1 img{
+		width: 25% !important;
+	}
+	.linha2{
+		width: 100% !important;
+	}
+	.linha3{
+		width: 100% !important;
+	}
+	}

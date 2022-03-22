@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@media screen and (min-width: 280px) {
+  .logoFooter {
+    max-height: 40px;
+    width: auto;
+  }
+
+  .formasPagamento {
+    margin-top: 0;
+  }
+
+  footer #menu-main-menu-1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  #menu-item-3689, #menu-item-3693 {
+    display: none;
+  }
+
+  #menu-item-3828 {
+    padding-right: 10px;
+  }
+
+  #menu-item-3829 {
+    padding-left: 10px;
+  }
+
+  .tituloFooter {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  ul.nasa-bottom-bar-icons.nasa-transition.nasa-4-columns.nasa-active {
+    display: none;
+  }
+}
+@media screen and (min-width: 280px) {
+  .linha1 {
+    width: 100% !important;
+  }
+
+  .linha1 img {
+    width: 25% !important;
+  }
+
+  .linha2 {
+    width: 100% !important;
+  }
+
+  .linha3 {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body.home {
+    max-width: 1400px;
+  }
+
+  html, body {
+    font-size: 16px;
+  }
+
+  #top-bar {
+    display: initial;
+  }
+
+  .logoFooter {
+    max-height: 40px;
+    width: auto;
+  }
+
+  footer #menu-main-menu-1 {
+    list-style-type: none;
+    display: flex;
+  }
+
+  #menu-item-3689, #menu-item-3693 {
+    display: none;
+  }
+
+  .tituloFooter {
+    font-size: 1.5rem;
+  }
+}
+div[data-tag=div-77] {
+  line-height: 1.5em;
+}
+
+li[data-tag=li-2] {
+  display: block !important;
+}
+
+.topbar-mobile-text[data-tag=div-7] {
+  display: none !important;
+}
+
+.nasa-static-group-btn {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .linha1:nth-child(1) {
+    width: 25% !important;
+  }
+
+  .linha1 img {
+    width: 30% !important;
+  }
+
+  .linha1:nth-child(2) {
+    width: 75% !important;
+  }
+
+  .linha2 {
+    width: 25% !important;
+  }
+
+  .linha3 {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=sas-estilos.css.map */
