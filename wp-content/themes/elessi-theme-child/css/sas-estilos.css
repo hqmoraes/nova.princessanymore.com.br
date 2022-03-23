@@ -673,6 +673,11 @@
 }
 
 @media screen and (min-width: 992px) {
+  .quemSomos {
+    max-width: 992px;
+    margin: 0 auto;
+  }
+
   .ancorado {
     width: 100%;
   }
@@ -695,7 +700,7 @@
   }
   .bloco1 .ancorado:nth-child(2) {
     height: 100%;
-    top: 37vw;
+    top: 36%;
     width: 85%;
     left: 5%;
   }
@@ -815,6 +820,7 @@
 
   .bloco8 {
     min-height: 708px;
+    overflow-x: hidden;
   }
   .bloco8 .ancorado:nth-child(2) {
     height: 100%;
@@ -829,7 +835,7 @@
     width: fit-content;
   }
   .bloco8 .ancorado:nth-child(2) img {
-    width: 40vw;
+    width: 35vw;
   }
 }
 .rodapeV2 {
