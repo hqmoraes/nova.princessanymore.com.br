@@ -173,7 +173,7 @@ img1.parentElement.classList.add('ancorado');
 img2.parentElement.classList.add('ancorado');
 let img1c = document.createElement('img');
 let img2c = document.createElement('img');
-    switch (true){/*
+    switch (true){
         case ssize > 1400:
             img1c.src = baseImg + '1400w-' + i + '.png';
             img1c.classList.add('img1')
@@ -198,9 +198,7 @@ let img2c = document.createElement('img');
             img1.appendChild(img1c);
             img2.appendChild(img2c);
             break;
-            case (ssize > 768 && ssize < 992):
-            */  
-        case (ssize > 768):
+        case (ssize > 768 && ssize < 992):
             img1c.src = baseImg + '768w-' + i + '.png';
             img1c.classList.add('img1')
             img2c.src = baseImg + '768w-' + i + '.svg';
