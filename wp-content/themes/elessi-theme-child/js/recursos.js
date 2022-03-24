@@ -191,9 +191,9 @@ let img2c = document.createElement('img');
             img2.appendChild(img2c);
             break;
         case (ssize > 992 && ssize < 1200):
-            img1c.src = baseImg + '992-' + i + '.png';
+            img1c.src = baseImg + '992w-' + i + '.png';
             img1c.classList.add('img1')
-            img2c.src = baseImg + '992-' + i + '.svg';
+            img2c.src = baseImg + '992w-' + i + '.svg';
             img2c.classList.add('img2')
             img1.appendChild(img1c);
             img2.appendChild(img2c);

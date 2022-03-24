@@ -673,11 +673,6 @@
 }
 
 @media screen and (min-width: 992px) {
-  .quemSomos {
-    max-width: 992px;
-    margin: 0 auto;
-  }
-
   .ancorado {
     width: 100%;
   }
@@ -695,22 +690,24 @@
   }
 
   .bloco1 {
-    min-height: 834px;
-    height: 1000px;
+    min-height: 433px;
+    height: auto;
+  }
+  .bloco1 .ancora {
+    height: auto;
   }
   .bloco1 .ancorado:nth-child(2) {
-    height: 100%;
-    top: 36%;
-    width: 85%;
+    height: auto;
+    top: 50%;
+    width: 60%;
     left: 5%;
   }
 
   .bloco2 {
-    min-height: 708px;
+    min-height: 238px;
+    height: auto;
   }
   .bloco2 .ancorado:nth-child(2) {
-    display: flex;
-    height: 100%;
     top: 0;
     width: 100%;
     left: 0;
@@ -718,33 +715,39 @@
     justify-content: center;
   }
   .bloco2 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .bloco2 .ancorado:nth-child(2) img {
-    width: 40vw;
+    width: 80%;
   }
 
   .bloco3 {
-    min-height: 708px;
+    min-height: 324px;
+    height: auto;
   }
   .bloco3 .ancorado:nth-child(2) {
     display: flex;
     height: auto;
-    top: 62%;
+    top: 35%;
     width: 100%;
-    left: 0;
+    left: 2%;
     align-items: center;
     justify-content: center;
   }
   .bloco3 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .bloco3 .ancorado:nth-child(2) img {
-    width: 40vw;
+    width: 20%;
   }
 
   .bloco4 {
-    min-height: 708px;
+    min-height: 167px;
+    height: auto;
   }
   .bloco4 .ancorado:nth-child(2) {
     display: flex;
@@ -756,34 +759,38 @@
     justify-content: center;
   }
   .bloco4 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .bloco4 .ancorado:nth-child(2) img {
-    width: 40vw;
+    width: 80%;
   }
 
   .bloco5 {
-    min-height: 708px;
+    min-height: 514px;
+    height: auto;
+  }
+  .bloco5 .ancora {
+    height: auto;
   }
   .bloco5 .ancorado:nth-child(2) {
-    display: flex;
-    height: 100%;
-    top: 10%;
-    width: 50vw;
-    left: 5%;
-    align-items: center;
-    justify-content: left;
-    margin-left: 10vw;
+    margin: 0;
+    height: auto;
+    top: 13%;
+    width: 100%;
+    left: 3%;
   }
   .bloco5 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
   }
   .bloco5 .ancorado:nth-child(2) img {
-    width: 40vw;
+    width: 50%;
   }
 
   .bloco6 {
-    min-height: 708px;
+    min-height: 290px;
+    height: auto;
   }
   .bloco6 .ancorado:nth-child(2) {
     height: 100%;
@@ -794,19 +801,23 @@
     justify-content: center;
   }
   .bloco6 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .bloco6 .ancorado:nth-child(2) img {
-    width: 40vw;
+    width: 80%;
   }
 
   .bloco7 {
-    min-height: 708px;
+    min-height: 324px;
+    height: auto;
   }
   .bloco7 .ancorado:nth-child(2) {
+    margin: 0;
     height: 100%;
     bottom: 0;
-    width: 100%;
+    width: 65%;
     left: 0;
     align-items: center;
     justify-content: center;
@@ -819,23 +830,7 @@
   }
 
   .bloco8 {
-    min-height: 708px;
-    overflow-x: hidden;
-  }
-  .bloco8 .ancorado:nth-child(2) {
-    height: 100%;
-    top: 0;
-    width: 100%;
-    left: 0;
-    margin-left: 5%;
-    align-items: center;
-    justify-content: left;
-  }
-  .bloco8 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
-  }
-  .bloco8 .ancorado:nth-child(2) img {
-    width: 35vw;
+    display: none;
   }
 }
 .rodapeV2 {
@@ -875,6 +870,85 @@
   width: 100%;
 }
 
+@media screen and (min-width: 1200px) {
+  .bloco1 {
+    height: 524px;
+  }
+
+  .bloco2 {
+    height: 288px;
+  }
+
+  .bloco3 {
+    height: 392px;
+  }
+
+  .bloco4 {
+    height: 202px;
+  }
+
+  .bloco5 {
+    height: 622px;
+  }
+
+  .bloco6 {
+    height: 351px;
+  }
+
+  .bloco7 {
+    height: 392px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .bloco1 {
+    height: 611px;
+  }
+  .bloco1 .img2 {
+    width: 65% !important;
+  }
+  .bloco1 .ancorado:nth-child(2) {
+    bottom: 15%;
+    left: 5%;
+  }
+
+  .bloco2 {
+    height: 336px;
+  }
+  .bloco2 .ancorado:nth-child(2) {
+    bottom: 30%;
+    left: 7%;
+  }
+
+  .bloco3 {
+    height: 457px;
+  }
+  .bloco3 .ancorado:nth-child(2) {
+    width: 26% !important;
+    bottom: 34%;
+    left: 47%;
+  }
+
+  .bloco4 {
+    height: 235px;
+  }
+  .bloco4 .ancorado:nth-child(2) {
+    width: 100% !important;
+    bottom: 20%;
+    left: 7%;
+  }
+
+  .bloco5 {
+    height: 726px;
+  }
+
+  .bloco6 {
+    height: 409px;
+  }
+
+  .bloco7 {
+    height: 457px;
+  }
+}
 html, body {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
@@ -970,6 +1044,10 @@ body > div.nasa-static-group-btn {
 
 .ancorado:nth-child(2) {
   position: absolute;
+}
+
+section[data-id=f54c3e3] {
+  display: none;
 }
 
 /*# sourceMappingURL=sas-estilos.css.map */
