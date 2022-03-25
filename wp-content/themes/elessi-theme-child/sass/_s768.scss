@@ -1,14 +1,20 @@
 @media only screen and (min-width: 768px){
-	body.home {
+	.s768{
+		display: block;
+	}
+	.s576{
+		display: none;
+	}
+	.homeInterno {
 		.s768{
 			width: 100%;
 			img{
 				width:100%;
-				height: 100%;
+				height: auto;
 			}			
 			.texto{
 				position: absolute;
-				bottom:35%;
+				top:30%;
 				left: 5%;
 				width: 65%;
 				img{
@@ -23,13 +29,10 @@
 				padding:0 !important;
 			}
 		}		
-		.s576{
-			display: none;
-		}
-		.s768{
-			display: block;
-		}
+
 	}
+
+	
 	#top-bar{
 		display: initial;
 	}
@@ -216,8 +219,6 @@ li[data-tag="li-2"]{
 			}
 		}
 	}	
-}
-
 .rodapeV2{
 	max-width: 1400px;
 	margin: 0 auto;
@@ -255,4 +256,5 @@ li[data-tag="li-2"]{
 			width: 100%;
 		}
 	}
+}
 }
