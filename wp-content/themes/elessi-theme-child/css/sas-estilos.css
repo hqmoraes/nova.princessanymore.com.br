@@ -514,7 +514,7 @@
   }
 
   #top-bar {
-    display: initial;
+    display: block;
   }
 
   .logoFooter {
@@ -757,30 +757,6 @@
   }
   .bannerHome .ancorado:nth-child(2) img {
     width: 85vw;
-  }
-
-  .homeInterno .s768 {
-    width: 100%;
-  }
-  .homeInterno .s768 img {
-    width: 100%;
-    height: auto;
-  }
-  .homeInterno .s768 .texto {
-    position: absolute;
-    top: 45%;
-    left: 5%;
-    width: 65%;
-  }
-  .homeInterno .s768 .texto img {
-    height: 80%;
-    width: auto;
-  }
-  .homeInterno .s768 {
-    width: 100%;
-  }
-  .homeInterno .s768 .elementor-widget-wrap.elementor-element-populated {
-    padding: 0 !important;
   }
 
   .ancorado {
