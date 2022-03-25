@@ -174,7 +174,7 @@ try {
     let img1c = document.createElement('img');
     let img2c = document.createElement('img');
         switch (true){
-            case ssize > 1400:
+            case ssize >=1400:
                 img1c.src = baseImg + '1400w-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '1400w-' + i + '.svg';
@@ -182,7 +182,7 @@ try {
                 img1.appendChild(img1c);
                 img2.appendChild(img2c);
                 break;
-            case (ssize > 1200 && ssize < 1400):
+            case (ssize >= 1200 && ssize < 1400):
                 img1c.src = baseImg + '1200w-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '1200w-' + i + '.svg';
@@ -190,7 +190,7 @@ try {
                 img1.appendChild(img1c);
                 img2.appendChild(img2c);
                 break;
-            case (ssize > 992 && ssize < 1200):
+            case (ssize >= 992 && ssize < 1200):
                 img1c.src = baseImg + '992w-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '992w-' + i + '.svg';
@@ -198,7 +198,7 @@ try {
                 img1.appendChild(img1c);
                 img2.appendChild(img2c);
                 break;
-            case (ssize > 768 && ssize < 992):
+            case (ssize >= 768 && ssize < 992):
                 img1c.src = baseImg + '768w-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '768w-' + i + '.svg';
@@ -206,7 +206,7 @@ try {
                 img1.appendChild(img1c);
                 img2.appendChild(img2c);
                 break;                   
-            case (ssize > 576 && ssize < 768):
+            case (ssize >= 576 && ssize < 768):
                 img1c.src = baseImg + '576w-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '576w-' + i + '.svg';
