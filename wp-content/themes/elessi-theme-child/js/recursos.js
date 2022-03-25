@@ -1,12 +1,13 @@
 var url = 'http://nova.princessanymore.com.br';
 var headerIcons = document.querySelectorAll('ul.header-icons');
 
+/*
 try {
     document.querySelector('.top-bar').style.display = 'block';
 } catch (error) {
     
 }
-
+*/
 
 var cnt = 0;
 var links = document.querySelectorAll('a');
