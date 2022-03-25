@@ -1,38 +1,4 @@
 @media only screen and (min-width: 768px){
-	.s768{
-		display: block;
-	}
-	.s576{
-		display: none;
-	}
-	.homeInterno {
-		.s768{
-			width: 100%;
-			img{
-				width:100%;
-				height: auto;
-			}			
-			.texto{
-				position: absolute;
-				top:30%;
-				left: 5%;
-				width: 65%;
-				img{
-					height:80%;
-					width: auto;
-				}
-		}					
-		}
-		.s768{
-			width: 100%;
-			.elementor-widget-wrap.elementor-element-populated{
-				padding:0 !important;
-			}
-		}		
-
-	}
-
-	
 	#top-bar{
 		display: initial;
 	}
@@ -220,24 +186,24 @@ li[data-tag="li-2"]{
 		}
 	}	
 .rodapeV2{
-	max-width: 1400px;
-	margin: 0 auto;
+	max-width: 992px;
+	margin: 5% auto;
 	width: 100%;
 	padding: 1%;
 	.elementor-container{
 		display: flex;
 		flex-wrap: wrap;
 		.linha1:nth-child(1){
-			width: 30%;
+			width: 100%;
 			img{
-				width: 60%;
+				width: 20%;
 			}
 		}
 		.linha1:nth-child(2){
-			width: 70%;
+			width: 100%;
 			.elementor-widget-wrap{
 				display: flex;
-				justify-content: center;
+				justify-content: left;
 				align-items: center;
 				height: 100%;
 				i{

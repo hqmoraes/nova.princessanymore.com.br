@@ -1,36 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @media screen and (min-width: 280px) {
-  .s576 {
-    width: 100%;
-  }
-  .s576 .elementor-widget-wrap.elementor-element-populated {
-    padding: 0 !important;
-  }
-
-  .s576 img {
+  .bannerHome .ancorado:nth-child(1) img {
     width: 100%;
     height: auto;
-    overflow-y: hidden;
   }
-
-  .s576 .texto {
-    position: absolute;
-    bottom: 55%;
+  .bannerHome .ancorado:nth-child(2) {
+    bottom: 20%;
     left: 5%;
-    width: 90%;
   }
-
-  .s576 .texto img {
-    height: 100%;
-    width: 100%;
-  }
-
-  .s576 {
-    display: block;
-  }
-
-  .s768 {
-    display: none;
+  .bannerHome .ancorado:nth-child(2) img {
+    width: 85vw;
   }
 
   .quemSomos {
@@ -273,7 +252,7 @@
     width: 100%;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(1) img {
-    width: 40%;
+    width: 30%;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(2) {
     width: 100%;
@@ -489,38 +468,6 @@
   }
 }
 @media only screen and (min-width: 768px) {
-  .s768 {
-    display: block;
-  }
-
-  .s576 {
-    display: none;
-  }
-
-  .homeInterno .s768 {
-    width: 100%;
-  }
-  .homeInterno .s768 img {
-    width: 100%;
-    height: auto;
-  }
-  .homeInterno .s768 .texto {
-    position: absolute;
-    top: 30%;
-    left: 5%;
-    width: 65%;
-  }
-  .homeInterno .s768 .texto img {
-    height: 80%;
-    width: auto;
-  }
-  .homeInterno .s768 {
-    width: 100%;
-  }
-  .homeInterno .s768 .elementor-widget-wrap.elementor-element-populated {
-    padding: 0 !important;
-  }
-
   #top-bar {
     display: initial;
   }
@@ -714,8 +661,8 @@
   }
 
   .rodapeV2 {
-    max-width: 1400px;
-    margin: 0 auto;
+    max-width: 992px;
+    margin: 5% auto;
     width: 100%;
     padding: 1%;
   }
@@ -724,17 +671,17 @@
     flex-wrap: wrap;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(1) {
-    width: 30%;
+    width: 100%;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(1) img {
-    width: 60%;
+    width: 20%;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(2) {
-    width: 70%;
+    width: 100%;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(2) .elementor-widget-wrap {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 100%;
   }

@@ -163,68 +163,136 @@ function tiraEfeito(){
 
 /* Montar página quem somos*/
 try {
-for (i=1;i<=8;i++){
-let baseImg = '/wp-content/uploads/2022/03/'
-let ssize = window.outerWidth;
-let img1 = document.querySelector('.quemSomos .elementor-widget-wrap.elementor-element-populated .bloco' + i + ' .elementor-container .elementor-column:nth-child(1) .elementor-widget-wrap');
-let img2 = document.querySelector('.quemSomos .elementor-widget-wrap.elementor-element-populated .bloco' + i + ' .elementor-container .elementor-column:nth-child(2)  .elementor-widget-wrap');
-img1.parentElement.parentElement.classList.add('ancora');
-img1.parentElement.classList.add('ancorado');
-img2.parentElement.classList.add('ancorado');
-let img1c = document.createElement('img');
-let img2c = document.createElement('img');
-    switch (true){
-        case ssize > 1400:
-            img1c.src = baseImg + '1400w-' + i + '.png';
-            img1c.classList.add('img1')
-            img2c.src = baseImg + '1400w-' + i + '.svg';
-            img2c.classList.add('img2')
-            img1.appendChild(img1c);
-            img2.appendChild(img2c);
-            break;
-        case (ssize > 1200 && ssize < 1400):
-            img1c.src = baseImg + '1200w-' + i + '.png';
-            img1c.classList.add('img1')
-            img2c.src = baseImg + '1200w-' + i + '.svg';
-            img2c.classList.add('img2')
-            img1.appendChild(img1c);
-            img2.appendChild(img2c);
-            break;
-        case (ssize > 992 && ssize < 1200):
-            img1c.src = baseImg + '992w-' + i + '.png';
-            img1c.classList.add('img1')
-            img2c.src = baseImg + '992w-' + i + '.svg';
-            img2c.classList.add('img2')
-            img1.appendChild(img1c);
-            img2.appendChild(img2c);
-            break;
-        case (ssize > 768 && ssize < 992):
-            img1c.src = baseImg + '768w-' + i + '.png';
-            img1c.classList.add('img1')
-            img2c.src = baseImg + '768w-' + i + '.svg';
-            img2c.classList.add('img2')
-            img1.appendChild(img1c);
-            img2.appendChild(img2c);
-            break;                   
-        case (ssize > 576 && ssize < 768):
-            img1c.src = baseImg + '576w-' + i + '.png';
-            img1c.classList.add('img1')
-            img2c.src = baseImg + '576w-' + i + '.svg';
-            img2c.classList.add('img2')
-            img1.appendChild(img1c);
-            img2.appendChild(img2c);
-            break;  
-        case ssize < 576:
-            img1c.src = baseImg + '400w-' + i + '.png';
-            img1c.classList.add('img1')
-            img2c.src = baseImg + '400w-' + i + '.svg';
-            img2c.classList.add('img2')
-            img1.appendChild(img1c);
-            img2.appendChild(img2c);
-            break;                        
-}
+    for (i=1;i<=8;i++){
+    let baseImg = '/wp-content/uploads/2022/03/'
+    let ssize = window.outerWidth;
+    let img1 = document.querySelector('.quemSomos .elementor-widget-wrap.elementor-element-populated .bloco' + i + ' .elementor-container .elementor-column:nth-child(1) .elementor-widget-wrap');
+    let img2 = document.querySelector('.quemSomos .elementor-widget-wrap.elementor-element-populated .bloco' + i + ' .elementor-container .elementor-column:nth-child(2)  .elementor-widget-wrap');
+    img1.parentElement.parentElement.classList.add('ancora');
+    img1.parentElement.classList.add('ancorado');
+    img2.parentElement.classList.add('ancorado');
+    let img1c = document.createElement('img');
+    let img2c = document.createElement('img');
+        switch (true){
+            case ssize > 1400:
+                img1c.src = baseImg + '1400w-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + '1400w-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;
+            case (ssize > 1200 && ssize < 1400):
+                img1c.src = baseImg + '1200w-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + '1200w-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;
+            case (ssize > 992 && ssize < 1200):
+                img1c.src = baseImg + '992w-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + '992w-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;
+            case (ssize > 768 && ssize < 992):
+                img1c.src = baseImg + '768w-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + '768w-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;                   
+            case (ssize > 576 && ssize < 768):
+                img1c.src = baseImg + '576w-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + '576w-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;  
+            case ssize < 576:
+                img1c.src = baseImg + '400w-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + '400w-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;                        
+    }
 
 }
 } catch (error) {
+    
+}
+
+    /* Montar página home*/
+try {
+    for (i=1;i<=1;i++){
+    let baseImg = '/wp-content/uploads/2022/03/'
+    let ssize = window.outerWidth;
+    let img1 = document.querySelector('.bannerHome .elementor-container .elementor-column:nth-child(1) .elementor-widget-wrap');
+    let img2 = document.querySelector('.bannerHome .elementor-container .elementor-column:nth-child(2)  .elementor-widget-wrap');
+    img1.parentElement.parentElement.classList.add('ancora');
+    img1.parentElement.classList.add('ancorado');
+    img2.parentElement.classList.add('ancorado');
+    let img1c = document.createElement('img');
+    let img2c = document.createElement('img');
+        switch (true){
+            case ssize >= 1400:
+                img1c.src = baseImg + 'x1400-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + 'x1400-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;
+            case (ssize >= 1200 && ssize < 1400):
+                img1c.src = baseImg + 'x1200-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + 'x1200-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;
+            case (ssize >= 992 && ssize < 1200):
+                img1c.src = baseImg + 'x992-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + 'x992-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;
+            case (ssize >= 768 && ssize < 992):
+                img1c.src = baseImg + 'x768-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + 'x768-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;                   
+            case (ssize >= 576 && ssize < 768):
+                img1c.src = baseImg + 'x576-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + 'x576-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;  
+            case ssize < 576:
+                img1c.src = baseImg + 'x400-' + i + '.png';
+                img1c.classList.add('img1')
+                img2c.src = baseImg + 'x400-' + i + '.svg';
+                img2c.classList.add('img2')
+                img1.appendChild(img1c);
+                img2.appendChild(img2c);
+                break;                        
+            }
+        }
+}
+catch (error) {
     
 }
