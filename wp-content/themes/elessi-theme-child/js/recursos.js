@@ -1,17 +1,6 @@
 var url = 'http://nova.princessanymore.com.br';
 var headerIcons = document.querySelectorAll('ul.header-icons');
 
-try {
-    let logn = document.querySelector('.header-icons .first.nasa-icon-account-mobile').cloneNode(true);
-    document.querySelectorAll('.header-icons')[1].appendChild(logn);
-
-} catch (error) {
-    
-}
-
-
-
-
 var cnt = 0;
 var links = document.querySelectorAll('a');
 links.forEach(lk =>{
@@ -46,7 +35,7 @@ links.forEach(lk =>{
         
     }
 
-
+/*
 try {
     ct = 1;
     headerIcons.forEach(hd =>{
@@ -63,7 +52,7 @@ try {
 } catch (error) {
     
 }
-
+*/
 
 try {
     document.getElementById('link-3').setAttribute('onclick','criaIdForms()');
