@@ -1,31 +1,20 @@
 @media screen and (min-width:1200px){
     
-	.homeInterno {
-		.s768{
-			width: 100%;
+	.bannerHome {
+		max-width: 1399px;
+		.ancorado:nth-child(1){
 			img{
-				width:100%;
+				width: 100%;
 				height: auto;
-			}			
-			.texto{
-				position: absolute;
-				top:45%;
-				left: 5%;
-				width: 65%;
-				img{
-					height:80%;
-					width: auto;
-				}
-		}					
-		}
-		.s768{
-			width: 100%;
-			.elementor-widget-wrap.elementor-element-populated{
-				padding:0 !important;
+			}	}
+		.ancorado:nth-child(2){
+			bottom:20%;
+			left: 5%;
+			img{
+				width: 85vw;
 			}
-		}		
-
-	}
+		}
+}
 
 .ancorado{
 	width: 100%;
@@ -188,6 +177,7 @@
 	.bloco8{
 		display:none;
 	}	
+
 .rodapeV2{
 	max-width: 1400px;
 	margin: 0 auto;
@@ -197,7 +187,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		.linha1:nth-child(1){
-			width: 30%;
+			width: 20%;
 			img{
 				width: 60%;
 			}

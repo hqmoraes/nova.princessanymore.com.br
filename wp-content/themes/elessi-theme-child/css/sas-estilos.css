@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @media screen and (min-width: 280px) {
+  .bannerHome {
+    max-width: 575px;
+  }
   .bannerHome .ancorado:nth-child(1) img {
     width: 100%;
     height: auto;
@@ -238,7 +241,7 @@
     max-width: 768px;
     margin-top: 10%;
     width: 100%;
-    padding: 1%;
+    padding: 5%;
   }
   .rodapeV2 article {
     padding-bottom: 1% !important;
@@ -276,37 +279,19 @@
   }
 }
 @media screen and (min-width: 576px) {
-  .s576 {
-    width: 100%;
+  .bannerHome {
+    max-width: 767px;
   }
-  .s576 .elementor-widget-wrap.elementor-element-populated {
-    padding: 0 !important;
-  }
-
-  .s576 img {
+  .bannerHome .ancorado:nth-child(1) img {
     width: 100%;
     height: auto;
-    overflow-y: hidden;
   }
-
-  .s576 .texto {
-    position: absolute;
-    bottom: 55%;
+  .bannerHome .ancorado:nth-child(2) {
+    bottom: 20%;
     left: 5%;
-    width: 70%;
   }
-
-  .s576 .texto img {
-    height: 100%;
-    width: 100%;
-  }
-
-  .s576 {
-    display: block;
-  }
-
-  .s768 {
-    display: none;
+  .bannerHome .ancorado:nth-child(2) img {
+    width: 85vw;
   }
 
   .ancorado {
@@ -466,8 +451,64 @@
   .bloco8 .ancorado:nth-child(2) img {
     width: 100%;
   }
+
+  .rodapeV2 {
+    max-width: 768px;
+    margin-top: 10%;
+    width: 100%;
+    padding: 1%;
+  }
+  .rodapeV2 article {
+    padding-bottom: 1% !important;
+  }
+  .rodapeV2 .elementor-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+  }
+  .rodapeV2 .elementor-container .linha1:nth-child(1) {
+    width: 100%;
+  }
+  .rodapeV2 .elementor-container .linha1:nth-child(1) img {
+    width: 30%;
+  }
+  .rodapeV2 .elementor-container .linha1:nth-child(2) {
+    width: 100%;
+  }
+  .rodapeV2 .elementor-container .linha1:nth-child(2) .elementor-widget-wrap {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .rodapeV2 .elementor-container .linha1:nth-child(2) .elementor-widget-wrap i {
+    font-size: 1.5rem;
+  }
+  .rodapeV2 .elementor-container .linha2 {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .rodapeV2 .elementor-container .linha3 {
+    margin-top: 5%;
+    width: 100%;
+  }
 }
 @media only screen and (min-width: 768px) {
+  .bannerHome {
+    max-width: 991px;
+  }
+  .bannerHome .ancorado:nth-child(1) img {
+    width: 100%;
+    height: auto;
+  }
+  .bannerHome .ancorado:nth-child(2) {
+    bottom: 20%;
+    left: 5%;
+  }
+  .bannerHome .ancorado:nth-child(2) img {
+    width: 85vw;
+  }
+
   #top-bar {
     display: initial;
   }
@@ -664,7 +705,7 @@
     max-width: 992px;
     margin: 5% auto;
     width: 100%;
-    padding: 1%;
+    padding: 5%;
   }
   .rodapeV2 .elementor-container {
     display: flex;
@@ -677,6 +718,7 @@
     width: 20%;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(2) {
+    margin-top: 2%;
     width: 100%;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(2) .elementor-widget-wrap {
@@ -698,6 +740,21 @@
   }
 }
 @media screen and (min-width: 992px) {
+  .bannerHome {
+    max-width: 1199px;
+  }
+  .bannerHome .ancorado:nth-child(1) img {
+    width: 100%;
+    height: auto;
+  }
+  .bannerHome .ancorado:nth-child(2) {
+    bottom: 20%;
+    left: 5%;
+  }
+  .bannerHome .ancorado:nth-child(2) img {
+    width: 85vw;
+  }
+
   .homeInterno .s768 {
     width: 100%;
   }
@@ -720,10 +777,6 @@
   }
   .homeInterno .s768 .elementor-widget-wrap.elementor-element-populated {
     padding: 0 !important;
-  }
-
-  footer#nasa-footer {
-    margin-top: 5%;
   }
 
   .ancorado {
@@ -925,28 +978,19 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .homeInterno .s768 {
-    width: 100%;
+  .bannerHome {
+    max-width: 1399px;
   }
-  .homeInterno .s768 img {
+  .bannerHome .ancorado:nth-child(1) img {
     width: 100%;
     height: auto;
   }
-  .homeInterno .s768 .texto {
-    position: absolute;
-    top: 45%;
+  .bannerHome .ancorado:nth-child(2) {
+    bottom: 20%;
     left: 5%;
-    width: 65%;
   }
-  .homeInterno .s768 .texto img {
-    height: 80%;
-    width: auto;
-  }
-  .homeInterno .s768 {
-    width: 100%;
-  }
-  .homeInterno .s768 .elementor-widget-wrap.elementor-element-populated {
-    padding: 0 !important;
+  .bannerHome .ancorado:nth-child(2) img {
+    width: 85vw;
   }
 
   .ancorado {
@@ -1124,7 +1168,7 @@
     flex-wrap: wrap;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(1) {
-    width: 30%;
+    width: 20%;
   }
   .rodapeV2 .elementor-container .linha1:nth-child(1) img {
     width: 60%;
@@ -1151,6 +1195,22 @@
   }
 }
 @media screen and (min-width: 1400px) {
+  .bannerHome {
+    max-width: 1450px;
+    margin: 0 auto;
+  }
+  .bannerHome .ancorado:nth-child(1) img {
+    width: 100%;
+    height: auto;
+  }
+  .bannerHome .ancorado:nth-child(2) {
+    bottom: 20%;
+    left: 5%;
+  }
+  .bannerHome .ancorado:nth-child(2) img {
+    width: 60vw;
+  }
+
   .ancorado {
     width: 100%;
   }
@@ -1169,6 +1229,11 @@
   .bloco1 .img1, .bloco2 .img1, .bloco3 .img1, .bloco4 .img1, .bloco5 .img1, .bloco6 .img1, .bloco7 .img1, .bloco8 .img1 {
     width: 100%;
     height: auto;
+  }
+
+  .quemSomos {
+    max-width: 1450px;
+    margin: 0 auto;
   }
 
   .bloco1 {
@@ -1317,7 +1382,7 @@
 
   .rodapeV2 {
     max-width: 1450px;
-    margin: 0 auto;
+    margin: 5% auto;
     width: 100%;
     padding: 1%;
   }

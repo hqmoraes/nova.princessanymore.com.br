@@ -1,33 +1,20 @@
 @media screen and (min-width:576px){
 
-	.s576{
-		width: 100%;
-		.elementor-widget-wrap.elementor-element-populated{
-			padding:0 !important;
+	.bannerHome {
+		max-width: 767px;
+		.ancorado:nth-child(1){
+			img{
+				width: 100%;
+				height: auto;
+			}	}
+		.ancorado:nth-child(2){
+			bottom:20%;
+			left: 5%;
+			img{
+				width: 85vw;
+			}
 		}
-	}
-	.s576 img{
-		width:100%;
-		height: auto;
-		overflow-y: hidden;
-	}	
-
-	.s576 .texto{
-		position: absolute;
-		bottom:55%;
-		left: 5%;
-		width: 70%;
-	}	
-	.s576 .texto img{
-		height: 100%;
-		width: 100%;
-	}
-	.s576{
-		display: block;
-	}
-	.s768{
-		display: none;
-	}
+}
 
 	.ancorado{
 		width: 100%;
@@ -181,4 +168,47 @@
 		}
 	}
 
+
+	.rodapeV2{
+		article{
+			padding-bottom: 1% !important;
+		}
+		max-width: 768px;
+		margin-top: 10%;
+		width: 100%;
+		padding: 1%;
+		.elementor-container{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: no-wrap;
+			.linha1:nth-child(1){
+				width: 100%;
+				img{
+					width: 30%;
+				}
+			}
+			.linha1:nth-child(2){
+				width: 100%;
+				.elementor-widget-wrap{
+					margin-top: 0;
+					display: flex;
+					align-items: center;
+					height: 100%;
+					i{
+						font-size: 1.5rem;
+					}
+				}
+
+			
+			}
+			.linha2{
+				width: 100%;
+				margin-top: 5%;
+			}
+			.linha3{
+				margin-top: 5%;
+				width: 100%;
+			}
+		}
+	}
 }

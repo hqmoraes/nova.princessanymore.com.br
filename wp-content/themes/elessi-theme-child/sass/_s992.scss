@@ -1,5 +1,21 @@
 @media screen and (min-width:992px){
 
+	.bannerHome {
+		max-width: 1199px;
+		.ancorado:nth-child(1){
+			img{
+				width: 100%;
+				height: auto;
+			}	}
+		.ancorado:nth-child(2){
+			bottom:20%;
+			left: 5%;
+			img{
+				width: 85vw;
+			}
+		}
+}
+
 	.homeInterno {
 		.s768{
 			width: 100%;
@@ -27,10 +43,6 @@
 
 	}
 
-
-	footer#nasa-footer{
-		margin-top: 5%;
-	}
 
 .ancorado{
 	width: 100%;

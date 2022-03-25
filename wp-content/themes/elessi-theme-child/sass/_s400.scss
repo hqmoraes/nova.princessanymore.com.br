@@ -1,6 +1,7 @@
 @media screen and (min-width: 280px){
 
 	.bannerHome {
+		max-width: 575px;
 		.ancorado:nth-child(1){
 			img{
 				width: 100%;
@@ -238,7 +239,7 @@
 		max-width: 768px;
 		margin-top: 10%;
 		width: 100%;
-		padding: 1%;
+		padding: 5%;
 		.elementor-container{
 			display: flex;
 			flex-direction: column;
