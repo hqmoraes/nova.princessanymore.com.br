@@ -35,7 +35,6 @@ links.forEach(lk =>{
         
     }
 
-/*
 try {
     ct = 1;
     headerIcons.forEach(hd =>{
@@ -52,7 +51,6 @@ try {
 } catch (error) {
     
 }
-*/
 
 try {
     document.getElementById('link-3').setAttribute('onclick','criaIdForms()');
