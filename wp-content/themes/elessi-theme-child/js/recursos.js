@@ -128,7 +128,7 @@ try {
     
 }
 
-if (document.getElementBuId('nasa-input-mobile-search')){
+if (document.getElementById('nasa-input-mobile-search')){
 try {
     let textoForm = document.querySelector('.tt-menu .tt-dataset p').innerText;
     let buscado = document.querySelector('#nasa-input-mobile-search').value;
