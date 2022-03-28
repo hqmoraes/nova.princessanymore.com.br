@@ -128,25 +128,35 @@ try {
     
 }
 
-if (document.getElementById('nasa-input-mobile-search')){
-try {
-    let textoForm = document.querySelector('.tt-menu .tt-dataset p').innerText;
-    let buscado = document.querySelector('#nasa-input-mobile-search').value;
-    let trocar = textoForm.replace('$$search',buscado);
-} catch (error) {
-    
-}
-}
-else{
 
-    try {
-        let textoForm = document.querySelector(`wrapper-mobile-search [data-tag=form-1]`).innerText;
-        let buscado = document.querySelector(`[data-tag=input-1]`).value;
-        let trocar = textoForm.replace('$$search',buscado);
-    } catch (error) {
-        
+setInterval(e=>{
+    try{
+        if (document.getElementById('nasa-input-mobile-search')){
+            try {
+                let textoForm = document.querySelector('.tt-menu .tt-dataset p').innerText;
+                let buscado = document.querySelector('#nasa-input-mobile-search').value;
+                let trocar = textoForm.replace('$$search',buscado);
+            } catch (error) {
+                
+            }
+            }
+            else{
+            
+                try {
+                    let textoForm = document.querySelector(`wrapper-mobile-search [data-tag=form-1]`).innerText;
+                    let buscado = document.querySelector(`[data-tag=input-1]`).value;
+                    let trocar = textoForm.replace('$$search',buscado);
+                } catch (error) {
+                    
+                }
+            }
+            
     }
-}
+    catch(erro){}
+},500)
+
+
+
 
 
 try{
