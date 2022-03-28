@@ -329,3 +329,9 @@ try {
 } catch (error) {
     
 }
+
+try {
+    document.querySelector('.cartoes')
+} catch (error) {
+    
+}
