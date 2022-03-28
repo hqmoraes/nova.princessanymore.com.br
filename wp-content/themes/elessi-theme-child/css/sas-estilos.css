@@ -25,6 +25,7 @@
   #politica p, #termos p, #trocas p {
     color: #212529;
     font-size: 1rem;
+    font-weight: 500 !important;
   }
   #politica p strong, #termos p strong, #trocas p strong {
     font-weight: 600 !important;
