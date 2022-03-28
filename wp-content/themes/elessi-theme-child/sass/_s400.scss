@@ -227,9 +227,12 @@
 			justify-content: center;
 			.elementor-widget-wrap{
 				width:100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
 			}
 			img{
-				width: 100%;
+				width: 70%;
 			}
 		}
     }
