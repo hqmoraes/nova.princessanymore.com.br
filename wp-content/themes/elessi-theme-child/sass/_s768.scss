@@ -3,6 +3,9 @@
 	#top-bar{
 		display: block;
 	}
+	#top-bar > div > div > div.left-text.left.rtl-right > span{
+		display: none;
+	}
 
 
 	.bannerHome {
