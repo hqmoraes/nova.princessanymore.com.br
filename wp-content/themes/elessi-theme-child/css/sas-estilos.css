@@ -10,7 +10,7 @@
   }
 
   #politica, #termos, #trocas, #pagamento {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
   #politica li, #termos li, #trocas li, #pagamento li {
     list-style-type: none;
