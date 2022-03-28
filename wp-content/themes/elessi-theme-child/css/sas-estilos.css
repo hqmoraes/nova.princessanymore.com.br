@@ -772,6 +772,10 @@
   }
 }
 @media screen and (min-width: 992px) {
+  #trocas > div {
+    margin: 0 auto;
+  }
+
   .bannerHome {
     max-width: 1199px;
     margin: 0 auto;
