@@ -1,10 +1,11 @@
 @media screen and (min-width: 280px){
-
-	.tituloTextos{
-		margin-bottom: 1.5rem !important;
-		font-size: 1.3rem;
-	}
  
+
+	#politica, #termos, #trocas{
+		.texto{
+			font-family: 'Montserrat', sans-serif;
+		}
+	}
 
 	div[data-id="4fd940a3"],div[data-id="605d17b7"]{
 		padding: 5%;
