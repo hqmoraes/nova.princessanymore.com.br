@@ -295,11 +295,6 @@ try {
                 img2.appendChild(img2c);
                 break;
             case (ssize >= 768 && ssize < 992):
-                try {
-                    document.querySelector('#top-bar').style.display = 'block';
-                } catch (error) {
-                    
-                }
                 img1c.src = baseImg + 'x768-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + 'x768-' + i + '.svg';
