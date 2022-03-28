@@ -331,7 +331,12 @@ try {
 }
 
 try {
-    document.querySelector('.cartoes')
+    let cartoes = document.querySelector(`[data-id="58413334"] [data-tag="p-5"]`);
+    let imgCartoes = document.createElement('img');
+    imgCartoes.src = "https://nova.princessanymore.com.br/wp-content/uploads/2022/03/imagensPagamento-1.jpg";
+    cartoes.appendChild(imgCartoes);
 } catch (error) {
     
 }
+
+
