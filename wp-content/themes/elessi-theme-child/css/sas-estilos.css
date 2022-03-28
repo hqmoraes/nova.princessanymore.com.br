@@ -9,30 +9,30 @@
     display: block !important;
   }
 
-  #politica, #termos, #trocas {
+  #politica, #termos, #trocas, #pagamento {
     padding: 0 2rem;
   }
-  #politica li, #termos li, #trocas li {
+  #politica li, #termos li, #trocas li, #pagamento li {
     list-style-type: none;
     font-size: 1rem;
   }
-  #politica h4, #termos h4, #trocas h4 {
+  #politica h4, #termos h4, #trocas h4, #pagamento h4 {
     font-size: 1.2rem !important;
     font-weight: 700 !important;
   }
-  #politica h2, #termos h2, #trocas h2 {
+  #politica h2, #termos h2, #trocas h2, #pagamento h2 {
     font-weight: 700 !important;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: 1.35rem;
   }
-  #politica p, #termos p, #trocas p {
+  #politica p, #termos p, #trocas p, #pagamento p {
     color: #212529;
     font-size: 1rem;
     font-weight: 400 !important;
   }
-  #politica p strong, #termos p strong, #trocas p strong {
+  #politica p strong, #termos p strong, #trocas p strong, #pagamento p strong {
     font-weight: 600 !important;
   }
 
