@@ -131,7 +131,7 @@ try {
     try {
         let textoForm = document.querySelector(`wrapper-mobile-search [data-tag=form-1]`).innerText;
         let buscado = document.querySelector(`[data-tag=input-1]`).ariaValueMax;
-        let trocar = textForm.replace('$$search',buscado);
+        let trocar = textoForm.replace('$$search',buscado);
     } catch (error) {
         
     }
