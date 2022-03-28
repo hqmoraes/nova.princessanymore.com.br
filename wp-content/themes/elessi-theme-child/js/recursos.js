@@ -99,7 +99,7 @@ function ocultar(tags){
         } catch (error) {
 
         }
-
+function ocultaNoDesktop(){
 try {
     switch (true){
         case document.body.classList.contains('home'):
@@ -127,7 +127,7 @@ try {
 } catch (error) {
     
 }
-
+}
 
 setInterval(e=>{
     try{
@@ -185,6 +185,7 @@ try {
     let img2c = document.createElement('img');
         switch (true){
             case ssize >=1400:
+                ocultaNoDesktop();
                 img1c.src = baseImg + '1400w-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '1400w-' + i + '.svg';
@@ -193,6 +194,7 @@ try {
                 img2.appendChild(img2c);
                 break;
             case (ssize >= 1200 && ssize < 1400):
+                ocultaNoDesktop();                
                 img1c.src = baseImg + '1200w-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '1200w-' + i + '.svg';
@@ -201,6 +203,7 @@ try {
                 img2.appendChild(img2c);
                 break;
             case (ssize >= 992 && ssize < 1200):
+                ocultaNoDesktop();                
                 img1c.src = baseImg + '992w-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '992w-' + i + '.svg';
