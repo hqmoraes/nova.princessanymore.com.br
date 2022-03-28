@@ -319,5 +319,15 @@ try {
         }
 }
 catch (error) {
+    document.querySelector('article.post-5943 a').href='https://wa.me-5511994456809'
+    document.querySelector('article.post-5945 a').href='mailto:atendimento@pny.com.br'
+    document.querySelector('article.post-5947 a').href='mailto:parecerias@pny.com.br'
+
+
+}
+
+try {
+    
+} catch (error) {
     
 }
