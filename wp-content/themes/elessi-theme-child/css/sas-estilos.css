@@ -18,9 +18,9 @@
   #politica h2, #termos h2, #trocas h2 {
     font-weight: 700 !important;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   #politica p, #termos p, #trocas p {
     color: #212529;
