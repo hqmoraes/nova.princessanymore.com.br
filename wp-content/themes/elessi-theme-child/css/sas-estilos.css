@@ -126,9 +126,6 @@
     height: auto;
   }
 
-  .bloco1 {
-    min-height: 434px;
-  }
   .bloco1 .ancorado:nth-child(2) {
     height: 100%;
     top: 37vw;
@@ -136,9 +133,6 @@
     left: 5%;
   }
 
-  .bloco2 {
-    min-height: 369px;
-  }
   .bloco2 .ancorado:nth-child(2) {
     display: flex;
     height: 100%;
@@ -158,9 +152,6 @@
     width: 70%;
   }
 
-  .bloco3 {
-    min-height: 369px;
-  }
   .bloco3 .ancorado:nth-child(2) {
     display: flex;
     height: auto;
@@ -177,9 +168,6 @@
     width: 90%;
   }
 
-  .bloco4 {
-    min-height: 369px;
-  }
   .bloco4 .ancorado:nth-child(2) {
     display: flex;
     height: 100%;
@@ -197,7 +185,6 @@
   }
 
   .bloco5 {
-    min-height: 369px;
     height: auto;
   }
   .bloco5 .ancorado:nth-child(2) {
@@ -217,9 +204,6 @@
     width: 100%;
   }
 
-  .bloco6 {
-    min-height: 369px;
-  }
   .bloco6 .ancorado:nth-child(2) {
     display: flex;
     height: 100%;
@@ -239,9 +223,6 @@
     width: 70%;
   }
 
-  .bloco7 {
-    min-height: 330px;
-  }
   .bloco7 .ancorado:nth-child(2) {
     display: flex;
     height: 100%;
@@ -258,9 +239,6 @@
     width: 90%;
   }
 
-  .bloco8 {
-    min-height: 369px;
-  }
   .bloco8 .ancorado:nth-child(2) {
     display: flex;
     height: 100%;
