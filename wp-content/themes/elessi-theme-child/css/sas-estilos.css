@@ -9,6 +9,8 @@
   }
   #politica li, #termos li, #trocas li {
     list-style-type: none;
+    font-weight: 300;
+    font-size: 1rem;
   }
   #politica h2, #termos h2, #trocas h2 {
     font-weight: 700 !important;
