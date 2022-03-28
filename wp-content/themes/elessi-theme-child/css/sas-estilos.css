@@ -774,6 +774,7 @@
 @media screen and (min-width: 992px) {
   .bannerHome {
     max-width: 1199px;
+    margin: 0 auto;
   }
   .bannerHome .ancorado:nth-child(1) img {
     width: 100%;
@@ -988,6 +989,7 @@
 @media screen and (min-width: 1200px) {
   .bannerHome {
     max-width: 1399px;
+    margin: 0 auto;
   }
   .bannerHome .ancorado:nth-child(1) img {
     width: 100%;
