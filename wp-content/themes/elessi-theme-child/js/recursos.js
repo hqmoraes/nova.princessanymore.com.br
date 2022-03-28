@@ -296,7 +296,7 @@ try {
                 break;
             case (ssize >= 768 && ssize < 992):
                 try {
-                    document.querySelector('.top-bar').style.display = 'block';
+                    document.querySelector('#top-bar').style.display = 'block';
                 } catch (error) {
                     
                 }
