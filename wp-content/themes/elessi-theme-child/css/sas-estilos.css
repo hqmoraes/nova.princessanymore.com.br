@@ -4,6 +4,9 @@
     font-size: 11px;
   }
 
+  #politica, #termos, #trocas {
+    padding: 2rem;
+  }
   #politica h2, #termos h2, #trocas h2 {
     font-weight: 800;
     text-align: center;
