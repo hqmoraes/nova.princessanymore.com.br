@@ -5,6 +5,9 @@
 
 		#politica, #termos, #trocas{
 			padding: 0 2rem;
+			li{
+				list-style-type: none;
+			}
 		h2{
 			font-weight: 800;
 			text-align: center;

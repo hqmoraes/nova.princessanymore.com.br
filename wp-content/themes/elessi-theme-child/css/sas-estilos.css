@@ -7,6 +7,9 @@
   #politica, #termos, #trocas {
     padding: 0 2rem;
   }
+  #politica li, #termos li, #trocas li {
+    list-style-type: none;
+  }
   #politica h2, #termos h2, #trocas h2 {
     font-weight: 800;
     text-align: center;
