@@ -11,7 +11,7 @@
     list-style-type: none;
   }
   #politica h2, #termos h2, #trocas h2 {
-    font-weight: 800;
+    font-weight: 700 !important;
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
