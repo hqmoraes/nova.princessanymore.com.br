@@ -137,6 +137,8 @@ setInterval(e=>{
                 let trocar = textoForm.replace('$$search',buscado);
                 document.querySelector('.tt-menu .tt-dataset p').innerText = trocar;
             } catch (error) {
+                
+            }
     }
     catch(erro){}
 },500)
