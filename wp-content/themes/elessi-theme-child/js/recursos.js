@@ -2,13 +2,6 @@ var url = 'http://nova.princessanymore.com.br';
 var headerIcons = document.querySelectorAll('ul.header-icons');
 
 
-try {
-    document.querySelector('.top-bar').style.display = 'block';
-} catch (error) {
-    
-}
-
-
 var cnt = 0;
 var links = document.querySelectorAll('a');
 links.forEach(lk =>{
@@ -249,6 +242,11 @@ try {
     let img2c = document.createElement('img');
         switch (true){
             case ssize >= 1400:
+                try {
+                    document.querySelector('.top-bar').style.display = 'block';
+                } catch (error) {
+                    
+                }
                 img1c.src = baseImg + 'x1400-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + 'x1400-' + i + '.svg';
@@ -257,6 +255,11 @@ try {
                 img2.appendChild(img2c);
                 break;
             case (ssize >= 1200 && ssize < 1400):
+                try {
+                    document.querySelector('.top-bar').style.display = 'block';
+                } catch (error) {
+                    
+                }
                 img1c.src = baseImg + 'x1200-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + 'x1200-' + i + '.svg';
@@ -265,6 +268,11 @@ try {
                 img2.appendChild(img2c);
                 break;
             case (ssize >= 992 && ssize < 1200):
+                try {
+                    document.querySelector('.top-bar').style.display = 'block';
+                } catch (error) {
+                    
+                }
                 img1c.src = baseImg + 'x992-' + i + '.png';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + 'x992-' + i + '.svg';
