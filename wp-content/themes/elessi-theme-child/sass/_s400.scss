@@ -3,26 +3,26 @@
 		font-size: 16px;
 	}
 
-		.termosUso h2{
+		#politica, #termos, #trocas{
+		h2{
 			font-weight: 800;
 			text-align: center;
-			margin-top: 2rem;
+			margin-top: 3rem;
+			margin-bottom: 2rem;
 			font-size: 1.5rem;
 		}
 		
-		.termosUso p{
+		p{
 			color: #212529;
 			font-size: 1rem;
 		
 		}
 		
-		.termosUso p strong{
+		p strong{
 			font-weight: 600 !important
 		}
-		
-	div[data-id="4fd940a3"],div[data-id="605d17b7"]{
-		padding: 5%;
 	}
+		
 
 	.bannerHome {
 		max-width: 575px;
