@@ -154,7 +154,7 @@ function desktopSearch(){
              document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText = trocar;
 		}
 		catch(erro){}
-	},5000)
+	},500)
 
 }
 
