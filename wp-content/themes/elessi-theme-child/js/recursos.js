@@ -158,7 +158,8 @@ catch(erro){
 		try{
 			let srch = document.getElementById('nasa-input-1').value;
 			let sbst = document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText;
-			document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText = sbst.replace('$$search',srch);
+            trocar = sbst.replace('$$search',srch);
+			document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText = trocar;
 		}
 		catch(erro){}
 	},500)
