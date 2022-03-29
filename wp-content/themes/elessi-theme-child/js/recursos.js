@@ -129,7 +129,7 @@ try {
 }
 }
 
-/*
+function mobileSearch(){
 setInterval(e=>{
     try{
             try {
@@ -143,7 +143,7 @@ setInterval(e=>{
     }
     catch(erro){}
 },500)
-*/
+}
 
 
 
@@ -152,9 +152,10 @@ try{
 	document.querySelector(`[title=Pesquisar]`).setAttribute('onclick','tiraEfeito()');
 }
 catch(erro){
-	
 }
-	setInterval(e=>{
+
+function desktopSearch(){
+    setInterval(e=>{
 		try{
 			let srch = document.getElementById('nasa-input-1').value;
 			let sbst = document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText;
@@ -164,12 +165,24 @@ catch(erro){
 		catch(erro){}
 	},5000)
 
+}
+
 function tiraEfeito(){
 	setInterval(e=>{
 		document.getElementById('nasa-input-1').setAttribute('data-suggestions','');
 		document.getElementById('nasa-input-1').setAttribute('keydown','sbstVar()');
 	},1000);
 }
+
+
+if (window.outerWidth < 992){
+    mobileSearch();
+}
+else{
+    desktopSearch();
+}
+
+
 
 /* Montar página quem somos*/
 try {
