@@ -129,6 +129,7 @@ try {
 }
 }
 
+/*
 setInterval(e=>{
     try{
             try {
@@ -142,7 +143,7 @@ setInterval(e=>{
     }
     catch(erro){}
 },500)
-
+*/
 
 
 
@@ -162,7 +163,7 @@ catch(erro){
              document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText = trocar;
 		}
 		catch(erro){}
-	},1000)
+	},5000)
 */
 
 function tiraEfeito(){
