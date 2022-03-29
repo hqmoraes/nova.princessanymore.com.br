@@ -772,6 +772,10 @@
   }
 }
 @media screen and (min-width: 992px) {
+  #masterhead {
+    border-bottom: 1px solid lightgrey;
+  }
+
   #trocas > div {
     margin: 0 auto;
   }
