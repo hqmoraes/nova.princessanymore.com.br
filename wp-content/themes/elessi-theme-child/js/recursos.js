@@ -158,13 +158,11 @@ catch(erro){
 		try{
 			let srch = document.getElementById('nasa-input-1').value;
 			let sbst = document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText;
-            if(sbst.search('$$search') > 0){
-                trocar = sbst.replace('$$search',srch);
-			    document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText = trocar;
-            }
+            let trocar = sbst.replace('$$search',srch);
+             document.querySelector('.tt-dataset.tt-dataset-search .empty-message.nasa-notice-empty').innerText = trocar;
 		}
 		catch(erro){}
-	},500)
+	},1000)
 
 
 function tiraEfeito(){
