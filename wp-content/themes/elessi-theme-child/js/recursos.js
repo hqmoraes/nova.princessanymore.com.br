@@ -145,15 +145,6 @@ setInterval(e=>{
 },500)
 }
 
-
-
-
-try{
-	document.querySelector(`[title=Pesquisar]`).setAttribute('onclick','tiraEfeito()');
-}
-catch(erro){
-}
-
 function desktopSearch(){
     setInterval(e=>{
 		try{
@@ -167,14 +158,6 @@ function desktopSearch(){
 
 }
 
-function tiraEfeito(){
-	setInterval(e=>{
-		document.getElementById('nasa-input-1').setAttribute('data-suggestions','');
-		document.getElementById('nasa-input-1').setAttribute('keydown','sbstVar()');
-	},1000);
-}
-
-
 if (window.outerWidth < 992){
     mobileSearch();
 }
@@ -182,6 +165,20 @@ else{
     desktopSearch();
 }
 
+
+
+try{
+	document.querySelector(`[title=Pesquisar]`).setAttribute('onclick','tiraEfeito()');
+}
+catch(erro){
+}
+
+function tiraEfeito(){
+	setInterval(e=>{
+		document.getElementById('nasa-input-1').setAttribute('data-suggestions','');
+		document.getElementById('nasa-input-1').setAttribute('keydown','sbstVar()');
+	},1000);
+}
 
 
 /* Montar página quem somos*/
