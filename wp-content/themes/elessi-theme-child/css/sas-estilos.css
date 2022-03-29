@@ -1232,11 +1232,11 @@
     height: auto;
   }
   .bannerHome .ancorado:nth-child(2) {
-    bottom: 20%;
+    bottom: 10%;
     left: 5%;
   }
   .bannerHome .ancorado:nth-child(2) img {
-    width: 60vw;
+    width: 60%;
   }
 
   .ancorado {
