@@ -266,8 +266,10 @@
   }
 
   .rodapeV2 {
+    background: rgba(0, 255, 255, 0.1);
+    padding-top: 2%;
     max-width: 768px;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 100%;
     padding: 5%;
   }
