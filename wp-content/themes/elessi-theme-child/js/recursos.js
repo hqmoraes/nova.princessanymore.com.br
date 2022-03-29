@@ -154,7 +154,6 @@ try{
 catch(erro){
 	
 }
-/*
 	setInterval(e=>{
 		try{
 			let srch = document.getElementById('nasa-input-1').value;
@@ -164,7 +163,6 @@ catch(erro){
 		}
 		catch(erro){}
 	},5000)
-*/
 
 function tiraEfeito(){
 	setInterval(e=>{
