@@ -1320,7 +1320,7 @@
     height: auto;
     top: 35%;
     width: 100%;
-    left: 2%;
+    left: 1%;
     align-items: center;
     justify-content: center;
   }
@@ -1330,7 +1330,7 @@
     justify-content: center;
   }
   .bloco3 .ancorado:nth-child(2) img {
-    width: 20%;
+    width: 22%;
   }
 
   .bloco4 {
