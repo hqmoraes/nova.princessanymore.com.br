@@ -1199,9 +1199,6 @@
     align-items: center;
     justify-content: left;
   }
-  .bloco8 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
-  }
 
   .rodapeV2 {
     background: #FAFAFA;
@@ -1429,9 +1426,6 @@
     margin-left: 5%;
     align-items: center;
     justify-content: left;
-  }
-  .bloco8 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
   }
 
   .rodapeV2 {
