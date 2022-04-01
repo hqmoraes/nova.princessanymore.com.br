@@ -931,6 +931,9 @@
   .bloco6 .ancorado:nth-child(2) img {
     width: 60%;
   }
+  .bloco6 .img1 {
+    width: 100%;
+  }
 
   .bloco7 {
     min-height: 324px;
