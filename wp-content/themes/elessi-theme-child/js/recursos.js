@@ -93,7 +93,6 @@ function ocultar(tags){
 }
 
 
-
         try {
             document.querySelector(`[data-tag=a-1]`).setAttribute('onclick','criaIdForms()');
         } catch (error) {
