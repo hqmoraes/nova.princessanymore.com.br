@@ -946,7 +946,7 @@
     margin: 0;
     height: 100%;
     bottom: 0;
-    width: 65%;
+    width: 100%;
     left: 0;
     align-items: center;
     justify-content: center;
@@ -955,7 +955,7 @@
     width: fit-content;
   }
   .bloco7 .ancorado:nth-child(2) img {
-    width: 100%;
+    width: 80%;
   }
 
   .bloco8 {
@@ -1182,7 +1182,6 @@
     margin: 0;
     height: 100%;
     bottom: 0;
-    width: 65%;
     left: 0;
     align-items: center;
     justify-content: center;
