@@ -958,6 +958,9 @@
     width: 50vw;
   }
 
+  .bloco8 {
+    min-height: auto;
+  }
   .bloco8 .ancorado:nth-child(2) {
     height: 100%;
     top: 0;
