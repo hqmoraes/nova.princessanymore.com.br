@@ -390,12 +390,6 @@
     align-items: center;
     justify-content: center;
   }
-  .bloco4 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
-  }
-  .bloco4 .ancorado:nth-child(2) img {
-    width: 70vw;
-  }
 
   .bloco5 {
     min-height: 531px;
@@ -408,13 +402,7 @@
     left: 0;
     align-items: center;
     justify-content: left;
-    margin-left: 10vw;
-  }
-  .bloco5 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
-  }
-  .bloco5 .ancorado:nth-child(2) img {
-    width: 51vw;
+    margin-left: 10%;
   }
 
   .bloco6 {
@@ -428,12 +416,6 @@
     align-items: center;
     justify-content: center;
   }
-  .bloco6 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
-  }
-  .bloco6 .ancorado:nth-child(2) img {
-    width: 70vw;
-  }
 
   .bloco7 {
     min-height: 531px;
@@ -445,12 +427,6 @@
     left: 0;
     align-items: center;
     justify-content: center;
-  }
-  .bloco7 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
-  }
-  .bloco7 .ancorado:nth-child(2) img {
-    width: 70vw;
   }
 
   .bloco8 {
@@ -464,12 +440,6 @@
     margin-left: 5%;
     align-items: center;
     justify-content: left;
-  }
-  .bloco8 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
-  }
-  .bloco8 .ancorado:nth-child(2) img {
-    width: 100%;
   }
 
   .rodapeV2 {
