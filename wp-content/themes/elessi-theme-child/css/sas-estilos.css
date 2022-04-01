@@ -1175,7 +1175,6 @@
   }
 
   .bloco7 {
-    min-height: 324px;
     height: auto;
   }
   .bloco7 .ancorado:nth-child(2) {
@@ -1187,7 +1186,7 @@
     justify-content: center;
   }
   .bloco7 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
   }
 
   .bloco8 .ancorado:nth-child(2) {
