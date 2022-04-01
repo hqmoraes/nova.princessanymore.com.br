@@ -819,6 +819,12 @@
     left: 0;
     right: 0;
   }
+  .bloco1 .ancorado:nth-child(2) .elementor-widget-wrap {
+    justify-content: center;
+  }
+  .bloco1 .ancorado:nth-child(2) .elementor-widget-wrap img {
+    width: 80%;
+  }
 
   .bloco2 {
     min-height: 238px;
