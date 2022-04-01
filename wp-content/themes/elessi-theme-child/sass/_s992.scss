@@ -185,7 +185,8 @@
 		justify-content: center;
 		.elementor-widget-wrap{
 			width:100%;
-			text-align: center;
+			display: flex;
+			justify-content: center;
 		}
 		img{
 			width: 80%;
