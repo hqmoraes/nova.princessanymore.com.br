@@ -974,7 +974,7 @@
     width: fit-content;
   }
   .bloco8 .ancorado:nth-child(2) img {
-    width: 50vw;
+    width: 60%;
   }
 
   .rodapeV2 {
@@ -1201,9 +1201,6 @@
   }
   .bloco8 .ancorado:nth-child(2) .elementor-widget-wrap {
     width: fit-content;
-  }
-  .bloco8 .ancorado:nth-child(2) img {
-    width: 50vw;
   }
 
   .rodapeV2 {
@@ -1435,9 +1432,6 @@
   }
   .bloco8 .ancorado:nth-child(2) .elementor-widget-wrap {
     width: fit-content;
-  }
-  .bloco8 .ancorado:nth-child(2) img {
-    width: 50vw;
   }
 
   .rodapeV2 {
