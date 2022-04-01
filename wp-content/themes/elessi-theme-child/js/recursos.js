@@ -191,7 +191,7 @@ function tiraEfeito(){
 /* Montar página quem somos*/
 try {
     for (i=1;i<=8;i++){
-    let baseImg = '/wp-content/uploads/2022/03/'
+    let baseImg = '/wp-content/uploads/2022/04/'
     let ssize = window.outerWidth;
     let img1 = document.querySelector('.quemSomos .elementor-widget-wrap.elementor-element-populated .bloco' + i + ' .elementor-container .elementor-column:nth-child(1) .elementor-widget-wrap');
     let img2 = document.querySelector('.quemSomos .elementor-widget-wrap.elementor-element-populated .bloco' + i + ' .elementor-container .elementor-column:nth-child(2)  .elementor-widget-wrap');
