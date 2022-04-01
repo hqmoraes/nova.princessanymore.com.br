@@ -192,7 +192,7 @@
 				width:100%;
 			}
 			img{
-				width: 100%;
+				width: 60%;
 			}
 		}
     }
@@ -246,6 +246,8 @@
 			justify-content: center;
 			.elementor-widget-wrap{
 				width:100%;
+				display: flex;
+				justify-content: center;
 			}
 			img{
 				width: 90%;

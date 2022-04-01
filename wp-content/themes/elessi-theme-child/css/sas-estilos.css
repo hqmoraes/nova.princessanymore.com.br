@@ -186,7 +186,7 @@
     width: 100%;
   }
   .bloco4 .ancorado:nth-child(2) img {
-    width: 100%;
+    width: 60%;
   }
 
   .bloco5 {
@@ -239,6 +239,8 @@
   }
   .bloco7 .ancorado:nth-child(2) .elementor-widget-wrap {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .bloco7 .ancorado:nth-child(2) img {
     width: 90%;
