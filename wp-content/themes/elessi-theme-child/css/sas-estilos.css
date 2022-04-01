@@ -624,12 +624,9 @@
     width: 100%;
   }
   .bloco3 .ancorado:nth-child(2) img {
-    width: 50%;
+    width: 40%;
   }
 
-  .bloco4 {
-    height: 708px;
-  }
   .bloco4 .ancorado:nth-child(2) {
     display: flex;
     height: 100%;
@@ -643,7 +640,7 @@
     width: fit-content;
   }
   .bloco4 .ancorado:nth-child(2) img {
-    width: 60vw;
+    width: 60%;
   }
 
   .bloco5 {
