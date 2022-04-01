@@ -952,7 +952,8 @@
     justify-content: center;
   }
   .bloco7 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
+    text-align: center;
   }
   .bloco7 .ancorado:nth-child(2) img {
     width: 80%;
@@ -1185,10 +1186,6 @@
     align-items: center;
     justify-content: center;
   }
-  .bloco7 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: 100%;
-    text-align: center;
-  }
 
   .bloco8 .ancorado:nth-child(2) {
     height: 100%;
@@ -1413,9 +1410,6 @@
     left: 0;
     align-items: center;
     justify-content: center;
-  }
-  .bloco7 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
   }
 
   .bloco8 .ancorado:nth-child(2) {
