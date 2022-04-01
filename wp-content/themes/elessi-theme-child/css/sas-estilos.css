@@ -608,26 +608,23 @@
     width: 100%;
   }
   .bloco2 .ancorado:nth-child(2) img {
-    width: 65%;
+    width: 70%;
   }
 
-  .bloco3 {
-    height: 708px;
-  }
   .bloco3 .ancorado:nth-child(2) {
     display: flex;
     height: auto;
-    top: 62%;
+    top: 36%;
     width: 100%;
     left: 0;
     align-items: center;
     justify-content: center;
   }
   .bloco3 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
   }
   .bloco3 .ancorado:nth-child(2) img {
-    width: 40vw;
+    width: 50%;
   }
 
   .bloco4 {
