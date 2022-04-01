@@ -1182,6 +1182,9 @@
     align-items: center;
     justify-content: center;
   }
+  .bloco7 .ancorado:nth-child(2) .elementor-widget-wrap {
+    justify-content: center;
+  }
 
   .bloco8 .ancorado:nth-child(2) {
     height: 100%;
