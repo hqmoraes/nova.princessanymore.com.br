@@ -1,4 +1,4 @@
-var url = 'http://nova.princessanymore.com.br';
+var url = 'https://princessanymore.com.br';
 var headerIcons = document.querySelectorAll('ul.header-icons');
 
 
