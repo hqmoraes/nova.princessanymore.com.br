@@ -82,7 +82,6 @@ function createTags(){
 
 createTags();
 
-/*
 function ocultar(tags){
     tags.forEach(oct =>{
         try {
@@ -92,7 +91,7 @@ function ocultar(tags){
         }
     })
 }
-*/
+
 
 
         try {
