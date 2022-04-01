@@ -803,7 +803,7 @@
   }
 
   .ancorado {
-    width: 100%;
+    width: 100% !important;
   }
 
   .bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8 {
@@ -946,7 +946,7 @@
     margin: 0;
     height: 100%;
     bottom: 0;
-    width: 100% !important;
+    width: 100%;
     left: 0;
     align-items: center;
     justify-content: center;
