@@ -1059,7 +1059,10 @@
   .bloco1 .ancorado:nth-child(2) {
     height: auto;
     width: 60%;
-    left: 5%;
+    left: 0;
+  }
+  .bloco1 .ancorado:nth-child(2) .elementor-widget-wrap img {
+    width: 80%;
   }
 
   .bloco2 {
