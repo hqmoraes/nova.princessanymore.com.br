@@ -132,7 +132,7 @@
     .bloco1 {
 		.ancorado:nth-child(2){
 			height: 100%;
-			top: 20%;
+			top: 24%;
 			width: 90%;
 			left: 5%;
 		}
@@ -168,9 +168,10 @@
 			justify-content: center;
 			.elementor-widget-wrap{
 				width:fit-content;
+				justify-content: center;
 			}
 			img{
-				width: 90%;
+				width: 60%;
 			}
 		}		
     }
