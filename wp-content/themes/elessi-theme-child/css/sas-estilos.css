@@ -337,13 +337,8 @@
     height: auto;
   }
 
-  .bloco1 {
-    min-height: 625px;
-  }
   .bloco1 .ancorado:nth-child(2) {
     height: 100%;
-    top: 37vw;
-    width: 85%;
     left: 5%;
   }
 
