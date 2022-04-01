@@ -203,7 +203,7 @@ try {
         switch (true){
             case ssize >=1400:
                 ocultaNoDesktop();
-                img1c.src = baseImg + '1400w-' + i + '.png';
+                img1c.src = baseImg + '1400w-' + i + '.webp';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '1400w-' + i + '.svg';
                 img2c.classList.add('img2')
@@ -212,7 +212,7 @@ try {
                 break;
             case (ssize >= 1200 && ssize < 1400):
                 ocultaNoDesktop();                
-                img1c.src = baseImg + '1200w-' + i + '.png';
+                img1c.src = baseImg + '1200w-' + i + '.webp';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '1200w-' + i + '.svg';
                 img2c.classList.add('img2')
@@ -221,7 +221,7 @@ try {
                 break;
             case (ssize >= 992 && ssize < 1200):
                 ocultaNoDesktop();                
-                img1c.src = baseImg + '992w-' + i + '.png';
+                img1c.src = baseImg + '992w-' + i + '.webp';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '992w-' + i + '.svg';
                 img2c.classList.add('img2')
@@ -229,7 +229,7 @@ try {
                 img2.appendChild(img2c);
                 break;
             case (ssize >= 768 && ssize < 992):
-                img1c.src = baseImg + '768w-' + i + '.png';
+                img1c.src = baseImg + '768w-' + i + '.webp';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '768w-' + i + '.svg';
                 img2c.classList.add('img2')
@@ -237,7 +237,7 @@ try {
                 img2.appendChild(img2c);
                 break;                   
             case (ssize >= 576 && ssize < 768):
-                img1c.src = baseImg + '576w-' + i + '.png';
+                img1c.src = baseImg + '576w-' + i + '.webp';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '576w-' + i + '.svg';
                 img2c.classList.add('img2')
@@ -245,7 +245,7 @@ try {
                 img2.appendChild(img2c);
                 break;  
             case ssize < 576:
-                img1c.src = baseImg + '400w-' + i + '.png';
+                img1c.src = baseImg + '400w-' + i + '.webp';
                 img1c.classList.add('img1')
                 img2c.src = baseImg + '400w-' + i + '.svg';
                 img2c.classList.add('img2')
