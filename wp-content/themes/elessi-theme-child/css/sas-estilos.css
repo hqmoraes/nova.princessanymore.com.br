@@ -815,7 +815,7 @@
   }
   .bloco1 .ancorado:nth-child(2) {
     height: auto;
-    top: 17%;
+    top: 20%;
     left: 0;
     right: 0;
   }
@@ -823,7 +823,7 @@
     justify-content: center;
   }
   .bloco1 .ancorado:nth-child(2) .elementor-widget-wrap img {
-    width: 80%;
+    width: 60%;
   }
 
   .bloco2 {
