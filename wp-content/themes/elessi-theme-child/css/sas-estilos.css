@@ -637,10 +637,13 @@
     justify-content: center;
   }
   .bloco4 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .bloco4 .ancorado:nth-child(2) img {
-    width: 60%;
+    width: 80%;
   }
 
   .bloco5 {
