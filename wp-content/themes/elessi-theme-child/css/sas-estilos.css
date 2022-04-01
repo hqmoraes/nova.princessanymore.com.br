@@ -1187,6 +1187,7 @@
   }
   .bloco7 .ancorado:nth-child(2) .elementor-widget-wrap {
     width: 100%;
+    text-align: center;
   }
 
   .bloco8 .ancorado:nth-child(2) {
