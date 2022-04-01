@@ -180,7 +180,21 @@
         }
     }
         .bloco8{
-            display:none;
+            .ancorado:nth-child(2){
+                height: 100%;
+                top: 0;
+                width: 100%;
+                left: 0;
+                margin-left: 5%;
+                align-items: center;
+                justify-content: left;
+                .elementor-widget-wrap{
+                    width:fit-content;
+                }
+                img{
+                    width: 50vw;
+                }
+            }
         }	
     .rodapeV2{
         background: #FAFAFA;;
