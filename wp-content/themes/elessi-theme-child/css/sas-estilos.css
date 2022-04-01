@@ -678,10 +678,10 @@
     justify-content: center;
   }
   .bloco6 .ancorado:nth-child(2) .elementor-widget-wrap {
-    width: fit-content;
+    width: 100%;
   }
   .bloco6 .ancorado:nth-child(2) img {
-    width: 60vw;
+    width: 80%;
   }
 
   .bloco7 {
